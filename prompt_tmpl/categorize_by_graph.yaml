@@ -1,0 +1,20 @@
+- role: system
+  msg: >
+    Please provide the results in JSON format.
+    You should output a list with the top 3 possible categories (label) based on the comparation with the reference graphs.
+    The reference graphs are the graphs that are used to compare with the query graph.
+    Each reference graph have some layers which contains address nodes or transaction nodes.
+    The nodes' info, including edges, is given once per line.
+    The reference graphs are shown below:
+    {graph_ref}
+
+- role: user
+  msg: |
+    Find out the top 3 possible categories of the graph.
+    Just like the reference graphs' label, the category is one of follows:
+    [blackmail, darknet market, exchange, gambling, money laundering, ponzi, pool, tumbler]
+    Try to think which features can help you making the decision. e.g.: the value or structure comparing to reference graphs.
+    output this reason as the last value of the list.
+    The result should follow this scheme: {{ 'result': [ top 3 categories,, ], 'reason': 'reason for making decision.' }}
+    The graph to anaylze:
+    {graph}

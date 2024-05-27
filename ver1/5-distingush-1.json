@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "graph_id": 11,
+      "possibility": "highly likely",
+      "reason": "The graph features a central exchange address with a maximum out-degree of 3000 (S2-2) and a high degree of centrality (S5: 1.9996666667036789), indicating a large volume of transactions originating from a single point, which is common in money laundering schemes to distribute funds."
+    },
+    {
+      "graph_id": 12,
+      "possibility": "possible",
+      "reason": "Features such as a high maximum out-degree (S2-2: 2844) and significant transaction volumes suggest potential money laundering. However, the presence of precalculated features indicating normal exchange operations, like PAIa21-1: 1.0, suggests further investigation is needed."
+    },
+    {
+      "graph_id": 13,
+      "possibility": "unlikely",
+      "reason": "Despite the high out-degree (S2-2: 2074), the graph's features, including a standard deviation of in-degree and out-degree (S1-6) lower than others and the ratio of minimum input token amount (PAIa21-1: 1.0), align more closely with typical exchange behavior than with money laundering."
+    },
+    {
+      "graph_id": 14,
+      "possibility": "highly likely",
+      "reason": "The graph's structure, with a high maximum out-degree (S2-2: 3000) and a centralized transaction pattern (S5: 1.9996666667036789), alongside a complete absence of small transaction ratios (PAIa21-1: 0.0), indicates a pattern consistent with layering in money laundering."
+    },
+    {
+      "graph_id": 15,
+      "possibility": "possible",
+      "reason": "Features such as the high maximum out-degree (S2-2: 2685) and the presence of transactions designed to obfuscate the flow (evident in the closeness centrality - S5), suggest potential money laundering. However, the PAIa21-1 value indicates some legitimate transactions, necessitating further review."
+    },
+    {
+      "graph_id": 16,
+      "possibility": "unlikely",
+      "reason": "While the graph has a high out-degree (S2-2: 1825), the remaining features, including the presence of a significant amount of small transactions (PAIa21-1: 1.0) and a relatively high degree of closeness centrality (S5: 3.081319830703618), suggest typical exchange activity."
+    },
+    {
+      "graph_id": 17,
+      "possibility": "highly likely",
+      "reason": "The pattern of transactions, with a single address showing a maximum out-degree of 3000 (S2-2) and a high degree of centrality (S5), alongside the lack of small transaction ratios (PAIa21-1: 0.0), strongly suggests a method of obfuscating funds indicative of money laundering."
+    },
+    {
+      "graph_id": 18,
+      "possibility": "possible",
+      "reason": "This graph presents a blend of features, including a high out-degree (S2-2: 2844) and a pattern of transactions that could suggest laundering. However, the transaction volume and distribution require additional analysis to conclusively determine money laundering activities."
+    },
+    {
+      "graph_id": 19,
+      "possibility": "unlikely",
+      "reason": "Despite some indicators of potential laundering, such as a high out-degree (S2-2: 2074), the graph's overall structure and the presence of features consistent with normal exchange operations suggest that it is more likely to represent legitimate activity."
+    },
+    {
+      "graph_id": 20,
+      "possibility": "highly likely",
+      "reason": "The graph's structure, characterized by a single address with an extremely high out-degree (S2-2: 2844) and transactions that significantly centralize the funds (S5: 3.0115657957157977), is indicative of attempts to disguise the origin of funds, aligning with money laundering techniques."
+    }
+  ]
+}

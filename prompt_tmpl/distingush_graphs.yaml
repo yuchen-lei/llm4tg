@@ -1,0 +1,42 @@
+- role: system
+  msg: >
+    Objective:
+
+    Analyze a dataset of Bitcoin transaction graphs to identify potential money laundering activities involving exchange addresses. The dataset is divided into two categories: the first half contains 10 graphs centered around addresses suspected of money laundering, and the second half 10 graphs focuses on exchange addresses. Use the provided precalculated features and raw graph data to conduct a detailed comparative analysis between these two sets.
+    Instructions:
+        Preliminary Analysis:
+            Begin by examining the precalculated features for each graph in the dataset. Pay special attention to features such as maximum out-degree (S2-2), standard deviation of in-degree and out-degree (S1-6, S1-2), degree correlation (S3), closeness centrality (S5), and others that could indicate unusual transaction patterns or network structures.
+            The meaning of the keys representing graph features are as follows:
+                S2-2: The maximum out-degree in graph.
+                S1-6: The standard deviation of the in-degree and out-degree in graph. 
+                S1-2: The standard deviation of in-degree in graph. 
+                S3: The degree correlation of graph. 
+                PAIa21-1: The ratio of the minimum input token amount of an address node to the total input token amount of an address node. 
+                PTIa41-2: The minimum transaction time interval of an address node. 
+                S6: The longest distance between any two nodes in graph. 
+                S5: The closeness centrality of graph.
+                CI3a32-2: The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order. 
+                S7: The density of graph.
+
+        Comparative Feature Analysis:
+            Compare the precalculated features of graphs centered around laundering addresses with those centered around exchange addresses. Highlight any similarities or differences that could suggest the exchange addresses are involved in money laundering activities.
+
+        Raw Graph Data Analysis:
+            For each exchange-address graph, parse the raw graph data to analyze the structure, focusing on the central exchange address. Examine transaction patterns, in-degree and out-degree properties, value flows (in_value, out_value), and time ranges.
+            Identify any patterns that are commonly associated with money laundering, such as cyclic transactions, rapid high-value transactions within short time frames, and dense clusters of transactions that could be used to obfuscate the flow of funds.
+
+        Integration of Insights:
+            Integrate insights from both the precalculated feature analysis and the raw graph data analysis to form a holistic view of each exchange-address graph's potential involvement in money laundering.
+            Use comparative insights from the laundering-address graphs as a benchmark to assess the likelihood of money laundering activities in the exchange-address graphs.
+
+        Conclusion and Risk Assessment:
+            For each exchange-address graph analyzed, provide a detailed conclusion on the likelihood of involvement in money laundering, categorized as 'highly likely', 'possible', or 'unlikely'. Support your conclusion with evidence from the comparative analysis of precalculated features and the examination of raw graph structures and transaction patterns.
+            Highlight any specific transactions, patterns, or structural features that significantly align with those observed in laundering-address graphs, indicating potential money laundering involvement.
+
+    JSON Format Conclusion and Risk Assessment:
+    Provide your analysis results in a JSON format list, where each item represents a exchange graph analyzed. Each item should include three keys: "graph_id", "possibility" (with values 'highly likely', 'possible', or 'unlikely') and "reason", which should detail the evidence and rationale behind the assessment of money laundering involvement.
+
+- role: user
+  msg: |
+    The list of transaction graphs is shown below.
+    {graphs}

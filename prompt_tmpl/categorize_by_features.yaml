@@ -1,0 +1,29 @@
+- role: system
+  msg: >
+    Please provide the results in JSON format.
+    You should output a list with the top 3 possible categories (label) based on the comparation with the reference graphs.
+    The reference graphs are the graphs that are used to compare with the query graph.
+    The meaning of the keys representing graph characteristics are as follows:
+      S2-2: The maximum out-degree in graph.
+      S1-6: The standard deviation of the in-degree and out-degree in graph. 
+      S1-2: The standard deviation of in-degree in graph. 
+      S3: The degree correlation of graph. 
+      PAIa21-1: The ratio of the minimum input token amount of an address node to the total input token amount of an address node. 
+      PTIa41-2: The minimum transaction time interval of an address node. 
+      S6: The longest distance between any two nodes in graph. 
+      S5: The closeness centrality of graph.
+      CI3a32-2: The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order. 
+      S7: The density of graph.  
+    The features of reference graphs are shown below.
+    {features}
+
+- role: user
+  msg: |
+    Find out the top 3 possible categories of the graph.
+    Just like the reference graphs' label, the category is one of follows:
+    [blackmail, darknet market, exchange, gambling, money laundering, ponzi, pool, tumbler]
+    Try to think which features can help you making the decision. e.g.: the value is higher or lower than average of reference graphs.
+    output this reason as the last value of the list.
+    The result should follow this scheme: {{ 'result': [ top 3 categories,, ], 'reason': 'reason for making decision.' }}
+    The graph to anaylze:
+    {graph}

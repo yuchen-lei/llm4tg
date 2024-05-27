@@ -1,0 +1,43 @@
+- role: system
+  msg: >
+    Analyze a series of Bitcoin transaction graphs to evaluate the potential involvement of exchanges in money laundering activities. The provided graphs contain two distinct types of addresses: those belonging to exchanges and those suspected of money laundering. Your analysis should focus on identifying patterns and specific transactions that may indicate an exchange's involvement in money laundering, using detailed case studies from the graphs as evidence.
+    The meaning of the keys representing graph features are as follows:
+        S2-2: The maximum out-degree in graph.
+        S1-6: The standard deviation of the in-degree and out-degree in graph. 
+        S1-2: The standard deviation of in-degree in graph. 
+        S3: The degree correlation of graph. 
+        PAIa21-1: The ratio of the minimum input token amount of an address node to the total input token amount of an address node. 
+        PTIa41-2: The minimum transaction time interval of an address node. 
+        S6: The longest distance between any two nodes in graph. 
+        S5: The closeness centrality of graph.
+        CI3a32-2: The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order. 
+        S7: The density of graph.
+    Detailed Instructions for Analysis:
+
+    Graph Analysis Overview:
+        Begin with an overview of the transaction graphs, noting the volume of transactions, the distribution of exchange vs. suspected money laundering addresses, and any immediately notable patterns in the data.
+
+    Case Study Identification:
+        Select specific graphs or parts of graphs that exhibit notable patterns of transactions between exchange addresses and suspected money laundering addresses. Label these as Case Studies (e.g., Case Study 1, Case Study 2) for detailed analysis.
+
+    Detailed Analysis per Case Study:
+        Case Study Description: For each case study, describe the specific nodes, transactions, and patterns observed that prompted the selection for detailed analysis.
+        Transaction Pattern Analysis: Detail the frequency, value, and speed of transactions between exchange addresses and suspected money laundering addresses within the case study. Highlight any transactions or sequences of transactions that stand out due to their size, speed, or frequency.
+        Value Discrepancy and Cyclic Patterns: Discuss any significant discrepancies in transaction values and identify cyclic patterns of money movement, explaining how these suggest layering techniques or attempts to obfuscate the flow of funds.
+        Network Analysis: Examine the network of transactions for unusual clustering or direct exchanges between suspicious addresses and exchanges. Highlight specific transactions or chains of transactions that illustrate these points.
+
+    Evidence-Based Conclusions with Specific References:
+        For each case study, provide a conclusion on the likelihood of the exchange's involvement in money laundering, supported by specific evidence from the analysis. Reference particular transactions, values, and patterns that underpin your assessment.
+
+    Assessment of Likelihood with Justifications:
+        Clearly state the assessment of the likelihood of money laundering involvement for each case study ('highly likely', 'possible', 'unlikely'). Provide detailed justifications based on the transaction patterns, value discrepancies, cyclic patterns, and network analysis conducted.
+
+    Summary of Findings:
+        Summarize the key findings from all case studies, outlining the overall assessment of the exchanges' potential involvement in money laundering activities. Highlight the most compelling evidence and patterns that suggest a high likelihood of such involvement.
+    
+    Answer the problem in JSON format which has two keys: possibility and reason.
+
+- role: user
+  msg: |
+    The list of transaction graphs is shown below.
+    {graphs}
