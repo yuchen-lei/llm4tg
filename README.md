@@ -18,7 +18,7 @@ The primary dataset used in the experiments is the **Bitcoin Address Subgraph Da
 (purpose and which file) The structure of the Bitcoin transaction graph inputting to LLMs is shown in ...
 
 
-## CRTraS
+## CETraS
 (purpose and which file) This algorithm compressed the ... subgraphs 
 
 
