@@ -63,7 +63,6 @@ LLMs can classify **cryptocurrency address types** for **unlabeled addresses** b
 ## LLM4TG Format
 
 We denote T as transaction and A as address. <NodeID> represents the node’s ID, <Number> represents an integer. <Float> represents a real number. The **LLM4TG** syntax is displayed as follows:
-
 <div align="center">
   <img src="img/LLM4TG.png" alt="Framework Overview" width="40%">
 </div>
