@@ -14,23 +14,26 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 ## Contents
 
 - [Dataset and Preprocess](#dataset-and-preprocess)
+- [Three-level Assessing Framework]
 - [LLM4TG Format](#llm4tg-format)
 - [CETraS](#cetras-algorithm)
 - [Experiment](#experiment)
 - [Acknowledgment](#acknowledgment)
 
 ## Dataset and Preprocess
-### 1. Bitcoin Address Subgraph Dataset ([BASD-8](https://www.kaggle.com/datasets/lemonx/basd8))  
-The **Bitcoin Address Subgraph Dataset (BASD-8)** is our primary dataset for experiments. It was introduced in our paper, which you can access [here](https://ieeexplore.ieee.org/abstract/document/10020980). 
+## 1. Bitcoin Address Subgraph Dataset ([BASD-8](https://www.kaggle.com/datasets/lemonx/basd8))  
+The **Bitcoin Address Subgraph Dataset (BASD-8)** serves as our primary dataset for experiments. It captures **transactional subgraph structures** of Bitcoin addresses and was introduced in our **IEEE Big Data 2022** paper, accessible [here](https://ieeexplore.ieee.org/abstract/document/10020980).
 
-### 2. Bitcoin Address Behavior Dataset ([BABD-13](https://www.kaggle.com/datasets/lemonx/babd13))  
-To explore differences between **raw graph** and **graph feature** characteristics, we also use the **Bitcoin Address Behavior Dataset (BABD-13)**. This dataset includes the same addresses as BASD-8 and was introduced in our paper, which you can find [here](https://ieeexplore.ieee.org/abstract/document/10375557). 
+## 2. Bitcoin Address Behavior Dataset ([BABD-13](https://www.kaggle.com/datasets/lemonx/babd13))  
+To explore the differences between **raw graph structures** and **graph-derived features**, we also use the **Bitcoin Address Behavior Dataset (BABD-13)**. This dataset contains the same addresses as BASD-8 but focuses on **behavioral patterns** derived from Bitcoin transactions. It was introduced in our **IEEE Transactions on Information Forensics and Security (TIFS) 2024** paper, available [here](https://ieeexplore.ieee.org/abstract/document/10375557).
 
 
+## 
 
 
 ## LLM4TG Format
 (purpose and which file) The structure of the Bitcoin transaction graph inputting to LLMs is shown in ...
+The data could be found in BASD-8 update.
 
 
 ## CETraS Algorithm
