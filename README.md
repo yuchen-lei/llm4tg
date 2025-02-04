@@ -60,9 +60,6 @@ LLMs can classify **cryptocurrency address types** for **unlabeled addresses** b
 ---
 
 
-
-
-
 ## LLM4TG Format
 (purpose and which file) The structure of the Bitcoin transaction graph inputting to LLMs is shown in ...
 The data could be found in BASD-8 update.
