@@ -17,7 +17,7 @@ If you have any questions please feel free to contact by e-mail at Yuexin.Xiang@
 - [Layered Assessment Framework](#layered-assessment-framework)
 - [LLM4TG Format](#llm4tg-format)
 - [CETraS](#cetras-algorithm)
-- [Experiment](#experiment)
+- [Addtional Notes](#addtional-notes)
 - [Acknowledgment](#acknowledgment)
 
 ## Dataset 
@@ -29,7 +29,10 @@ BABD-13 is used to explore the differences between *raw graph structures* and *g
 
 
 ## Layered Assessment Framework
-
+We propose a three-level framework for measuring the understanding of transaction graph:
+• Level 1 - foundational metrics: LLMs can determine the basic information of the graph such as the in-degree and output token amount of a node (``).
+• Level 2 - characteristic overview: LLMs can figure out the highlighted characteristics of the graph, e.g., a node has a significantly large out-degree (``).
+• Level 3 - contextual interpretation: LLMs can classify cryptocurrency address types for addresses without labels based on labeled address samples (``).
 
 
 ## LLM4TG Format
@@ -42,7 +45,7 @@ Data of LLM4TG format subgraph can be also found on Kaggle BASD-8 project.
 (purpose and which file) This algorithm compressed the ... subgraphs 
 
 
-## Experiment
+## Addtional Notes
 (how to reproduce the results shown in Tables and Figures from levels 1 - 3) First, our experiments on BASD-8 cover transaction graph understanding levels 1 to 3, details can be found in `2-basd8-basic.py`, where `aux_querygpt` function is used for querying through OpenAI APIs.
 
 
