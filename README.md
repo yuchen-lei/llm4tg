@@ -30,11 +30,13 @@ BABD-13 is used to explore the differences between *raw graph structures* and *g
 
 # Layered Assessment Framework
 
-<div align="center">
-  <img src="img/Framework.png" alt="Framework Overview" width="60%">
-</div>
 
-We propose a **three-level framework** for measuring the understanding of a transaction graph. The above illustration and following descriptions provide an overview of the proposed framework and its levels:
+
+We propose a **three-level framework** for measuring the understanding of a transaction graph. The following illustration and descriptions provide an overview of the proposed framework and its levels:
+
+<div align="center">
+  <img src="img/Framework.png" alt="Framework Overview" width="40%">
+</div>
 
 ---
 
