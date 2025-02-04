@@ -30,7 +30,13 @@ BABD-13 is used to explore the differences between *raw graph structures* and *g
 
 ## Layered Assessment Framework
 
-We propose a **three-level framework** for measuring the understanding of a transaction graph:
+We propose a **three-level framework** for measuring the understanding of a transaction graph, the following illustration provides an overview of the proposed framework:
+
+<div align="center">
+  <img src="image/Framework.png" width="300" height="275" alt="Structure">
+</div>
+
+The detailed level descrptions are shown below:
 
 ### • Level 1 - Foundational Metrics (`lv1_nodebasic`)
 LLMs can determine the **basic information** of the graph, such as:
