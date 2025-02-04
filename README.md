@@ -42,6 +42,6 @@ To explore differences between **graph-level** and **graph feature-level** chara
 
 
 ## Acknowledgment
-This research is supported by OpenAI Researcher Access Program.
+This research is supported by **OpenAI Researcher Access Program**.
 
 
