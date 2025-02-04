@@ -13,14 +13,14 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 
 ## Contents
 
-- [Dataset and Preprocess](#dataset-and-preprocess)
+- [Dataset](#dataset)
 - [Layered Assessment Framework](#layered-assessment-framework)
 - [LLM4TG Format](#llm4tg-format)
 - [CETraS](#cetras-algorithm)
 - [Experiment](#experiment)
 - [Acknowledgment](#acknowledgment)
 
-## Dataset and Preprocess
+## Dataset 
 ## 1. Bitcoin Address Subgraph Dataset ([BASD-8](https://www.kaggle.com/datasets/lemonx/basd8))  
 The **BASD-8** serves as our primary dataset for experiments. It captures **transactional subgraph structures** of Bitcoin addresses and was introduced in our **IEEE Big Data'22** paper, accessible on [Kaggle](https://ieeexplore.ieee.org/abstract/document/10020980).
 
