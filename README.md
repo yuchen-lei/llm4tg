@@ -66,11 +66,11 @@ We denote T as transaction and A as address. <NodeID> represents the node’s ID
   <img src="img/LLM4TG.png" alt="Framework Overview" width="40%">
 </div>
 
+We analyzed token consumption for various graph representation formats (GEXF, GML, GraphML) using the cl100k_base tokenizer (default for GPT-3.5 and GPT-4). These formats consume a large number of tokens due to their syntactic redundancy, quickly surpassing GPT-4's token limits as the graph size increases. In contrast, as shown below, LLM4TG offers a more efficient and compact format, making it better suited for analyzing transaction graphs with LLMs.
+
 <div align="center">
   <img src="img/tokens-node.png" alt="Framework Overview" width="40%">
 </div>
-
-We analyzed token consumption for various graph representation formats (GEXF, GML, GraphML) using the cl100k_base tokenizer (default for GPT-3.5 and GPT-4). These formats consume a large number of tokens due to their syntactic redundancy, quickly surpassing GPT-4's token limits as the graph size increases. In contrast, as shown below, LLM4TG offers a more efficient and compact format, making it better suited for analyzing transaction graphs with LLMs.
 
 Moreover, the **dataset in the LLM4TG format** for subgraphs is also available in the [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8).
 
