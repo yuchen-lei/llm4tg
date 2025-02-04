@@ -40,22 +40,22 @@ We propose a **three-level framework** for measuring the understanding of a tran
 
 ---
 
-## **Level 1 - Foundational Metrics (`lv1_nodebasic`)**  
-LLMs can determine the **basic information** of the graph, such as:  
+## **Level 1 - Foundational Metrics**  
+LLMs can determine the **basic information** of the graph (see `lv1_nodebasic`), such as:  
 - **In-degree** of a node  
 - **Output token amount** of a node  
 
 ---
 
-## **Level 2 - Characteristic Overview (`lv2_characteristic`)**  
-LLMs can identify **key characteristics** of the graph, for example:  
+## **Level 2 - Characteristic Overview**  
+LLMs can identify **key characteristics** of the graph (see `lv2_characteristic`), for example:  
 - A node with a **significantly large out-degree**  
 - Other distinguishing features that stand out in the transaction graph  
 
 ---
 
-## **Level 3 - Contextual Interpretation (`lv3_categorize`)**  
-LLMs can classify **cryptocurrency address types** for **unlabeled addresses** by leveraging labeled address samples.  
+## **Level 3 - Contextual Interpretation**  
+LLMs can classify **cryptocurrency address types** for **unlabeled addresses** by leveraging labeled address samples (see (`lv3_categorize`)).  
 
 ---
 
