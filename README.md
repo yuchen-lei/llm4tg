@@ -16,7 +16,7 @@ If you have any questions please feel free to contact by e-mail at Yuexin.Xiang@
 - [Dataset](#dataset)
 - [Layered Assessment Framework](#layered-assessment-framework)
 - [LLM4TG Format](#llm4tg-format)
-- [CETraS](#cetras-algorithm)
+- [CETraS Algorithm](#cetras-algorithm)
 - [Additional Notes](#additional-notes)
 - [Acknowledgment](#acknowledgment)
 
