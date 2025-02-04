@@ -17,7 +17,7 @@ If you have any questions please feel free to contact by e-mail at Yuexin.Xiang@
 - [Layered Assessment Framework](#layered-assessment-framework)
 - [LLM4TG Format](#llm4tg-format)
 - [CETraS](#cetras-algorithm)
-- [Addtional Notes](#addtional-notes)
+- [Additional Notes](#additional-notes)
 - [Acknowledgment](#acknowledgment)
 
 ## Dataset 
@@ -61,6 +61,11 @@ LLMs can classify **cryptocurrency address types** for **unlabeled addresses** b
 
 
 ## LLM4TG Format
+
+<div align="center">
+  <img src="img/LLM4TG.png" alt="Framework Overview" width="50%">
+</div>
+
 (purpose and which file) The structure of the Bitcoin transaction graph inputting to LLMs is shown in ...
 The data could be found in BASD-8 update.
 
@@ -70,7 +75,7 @@ Data of LLM4TG format subgraph can be also found on Kaggle BASD-8 project.
 (purpose and which file) This algorithm compressed the ... subgraphs 
 
 
-## Addtional Notes
+## Additional Notes
 (how to reproduce the results shown in Tables and Figures from levels 1 - 3) First, our experiments on BASD-8 cover transaction graph understanding levels 1 to 3, details can be found in `2-basd8-basic.py`, where `aux_querygpt` function is used for querying through OpenAI APIs.
 
 
