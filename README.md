@@ -1,6 +1,13 @@
 # LLM4TG
 
-This project includes the source code for our paper "**Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study**". 
+This project includes the source code for our work "**Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study**". If you find our work helpful for your research, please consider citing it as:
+
+  @article{lei2025large,
+    title={Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study},
+    author={Lei, Yuchen and Xiang, Yuexin and Wang, Qin and Dowsley, Rafael and Yuen, Tsz Hon and Yu, Jiangshan},
+    journal={arXiv preprint arXiv:2501.18158},
+    year={2025}
+  }
 
 ## Contents
 
@@ -12,6 +19,7 @@ This project includes the source code for our paper "**Large Language Models for
 
 ## Dataset and Preprocess
 The primary dataset used in the experiments is the **Bitcoin Address Subgraph Dataset** - [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8) proposed in [our paper](https://ieeexplore.ieee.org/abstract/document/10020980). In addition, to explore the feature differences between graph-level and graph feature-level, we apply the same addresses to BASD-8 in the **Bitcoin Address Behavior Dataset** - [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13) proposed in [our another paper](https://ieeexplore.ieee.org/abstract/document/10375557), implemented via `1-extract.py`. The corresponding LLM4TG format subgraph dataset is also available on [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8).
+
 
 
 ## LLM4TG
