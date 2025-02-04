@@ -25,7 +25,7 @@ If you have any questions please feel free to contact by e-mail at Yuexin.Xiang@
 BASD-8 serves as our primary dataset for experiments. It captures *transactional subgraph structures* of Bitcoin addresses and was introduced in our [**IEEE Big Data'22** paper](https://ieeexplore.ieee.org/abstract/document/10020980).
 
 ### 2. Bitcoin Address Behavior Dataset ([BABD-13](https://www.kaggle.com/datasets/lemonx/babd13))  
-BABD-13 is used to explore the differences between *raw graph structures* and *graph-derived features*. The subset of this dataset used in this work contains the same addresses as BASD-8 but focuses on *behavioral patterns* derived from Bitcoin transactions. It was introduced in our [**IEEE TIFS'24** paper](https://ieeexplore.ieee.org/abstract/document/10375557).
+BABD-13 is used to explore the differences between *raw graph structures* and *graph-derived features*. The subset of this dataset used in this work (i.e., `babd13-slim.csv`) contains the same addresses as BASD-8 but focuses on *behavioral patterns* derived from Bitcoin transactions. It was introduced in our [**IEEE TIFS'24** paper](https://ieeexplore.ieee.org/abstract/document/10375557).
 
 
 ## Layered Assessment Framework
