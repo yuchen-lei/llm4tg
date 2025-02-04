@@ -14,7 +14,7 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 ## Contents
 
 - [Dataset and Preprocess](#dataset-and-preprocess)
-- [Layered Framework](#layered-framework)
+- [Layered Assessment Framework](#layered-assessment-framework)
 - [LLM4TG Format](#llm4tg-format)
 - [CETraS](#cetras-algorithm)
 - [Experiment](#experiment)
@@ -28,7 +28,7 @@ The **BASD-8** serves as our primary dataset for experiments. It captures **tran
 To explore the differences between **raw graph structures** and **graph-derived features**, we also use the **BABD-13**. This dataset contains the same addresses as BASD-8 but focuses on **behavioral patterns** derived from Bitcoin transactions. It was introduced in our **IEEE TIFS'24** paper, available on [Kaggle](https://ieeexplore.ieee.org/abstract/document/10375557).
 
 
-## 
+## Layered Assessment Framework
 
 
 ## LLM4TG Format
