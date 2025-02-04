@@ -72,11 +72,11 @@ We analyzed token consumption for various graph representation formats (GEXF, GM
   <img src="img/tokens-node.png" alt="Framework Overview" width="40%">
 </div>
 
-Moreover, the **dataset in the LLM4TG format** for subgraphs is also available in the [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8).
+Moreover, the format transfer code is implemented in the function **`graph_full_repr`** within the file `llm4tg_repr.py`. Additionally, the **dataset in the LLM4TG format** for subgraphs is also available in the [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8).
 
 
 ## CETraS Algorithm
-Despite LLM4TG's efficiency, some transaction graphs are too large for tasks like classification that involve few-shot learning, which processes multiple graphs at once. To tackle this, we introduce CETraS, a method that condenses mid-sized transaction graphs while maintaining essential structures. The algorithm is shown below:
+Despite LLM4TG's efficiency, some transaction graphs are too large for tasks like classification that involve few-shot learning, which processes multiple graphs at once. To tackle this, we introduce CETraS, a method that condenses mid-sized transaction graphs while maintaining essential structures. The algorithm (see function **`sample_single_graph_repr_only`** in the file `llm4tg_repr.py`) is shown below:
 
 <div align="center">
   <img src="img/CETraS.png" alt="Framework Overview" width="40%">
@@ -84,7 +84,8 @@ Despite LLM4TG's efficiency, some transaction graphs are too large for tasks lik
 
 
 ## Additional Notes
-(how to reproduce the results shown in Tables and Figures from levels 1 - 3) First, our experiments on BASD-8 cover transaction graph understanding levels 1 to 3, details can be found in `2-basd8-basic.py`, where `aux_querygpt` function is used for querying through OpenAI APIs.
+
+`aux_querygpt` function is used for querying through OpenAI APIs.
 
 
 ## Acknowledgment
