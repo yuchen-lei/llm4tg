@@ -28,28 +28,29 @@ BASD-8 serves as our primary dataset for experiments. It captures *transactional
 BABD-13 is used to explore the differences between *raw graph structures* and *graph-derived features*. The subset of this dataset used in this work (i.e., `babd13-slim.csv`) contains the same addresses as BASD-8 but focuses on *behavioral patterns* derived from Bitcoin transactions. It was introduced in our [**IEEE TIFS'24** paper](https://ieeexplore.ieee.org/abstract/document/10375557).
 
 
-## Layered Assessment Framework
+# Layered Assessment Framework
 
-We propose a **three-level framework** for measuring the understanding of a transaction graph, the following illustration provides an overview of the proposed framework:
+We propose a **three-level framework** for measuring the understanding of a transaction graph. The following illustration provides an overview of the proposed framework:
 
 <div align="center">
-  <img src="img/Framework.png" width="400" height="250" alt="Structure">
+  <img src="img/Framework.png" alt="Framework Overview" width="60%">
 </div>
 
-The detailed level descrptions are shown below:
+### Framework Levels
 
-### • Level 1 - Foundational Metrics (`lv1_nodebasic`)
+#### **• Level 1 - Foundational Metrics (`lv1_nodebasic`)**
 LLMs can determine the **basic information** of the graph, such as:
 - **In-degree** of a node  
 - **Output token amount** of a node  
 
-### • Level 2 - Characteristic Overview (`lv2_characteristic`)
+#### **• Level 2 - Characteristic Overview (`lv2_characteristic`)**
 LLMs can identify **key characteristics** of the graph, for example:
 - A node with a **significantly large out-degree**  
 - Other distinguishing features that stand out in the transaction graph  
 
-### • Level 3 - Contextual Interpretation (`lv3_categorize`)
+#### **• Level 3 - Contextual Interpretation (`lv3_categorize`)**
 LLMs can classify **cryptocurrency address types** for **unlabeled addresses** by leveraging labeled address samples.
+
 
 
 
