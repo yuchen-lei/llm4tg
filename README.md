@@ -79,7 +79,7 @@ Moreover, the format transfer code is implemented in the function **`graph_full_
 Despite LLM4TG's efficiency, some transaction graphs are too large for tasks like classification that involve few-shot learning, which processes multiple graphs at once. To tackle this, we introduce CETraS, a method that condenses mid-sized transaction graphs while maintaining essential structures. The algorithm (see function **`sample_single_graph_repr_only`** in the file `llm4tg_repr.py`) is shown below:
 
 <div align="center">
-  <img src="img/CETraS.png" alt="Framework Overview" width="40%">
+  <img src="img/CETraS.png" alt="Framework Overview" width="30%">
 </div>
 
 
