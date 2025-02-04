@@ -14,7 +14,7 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 ## Contents
 
 - [Dataset and Preprocess](#dataset-and-preprocess)
-- [Three-level Assessing Framework]
+- [Layered Framework](#layered-framework)
 - [LLM4TG Format](#llm4tg-format)
 - [CETraS](#cetras-algorithm)
 - [Experiment](#experiment)
@@ -22,10 +22,10 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 
 ## Dataset and Preprocess
 ## 1. Bitcoin Address Subgraph Dataset ([BASD-8](https://www.kaggle.com/datasets/lemonx/basd8))  
-The **Bitcoin Address Subgraph Dataset (BASD-8)** serves as our primary dataset for experiments. It captures **transactional subgraph structures** of Bitcoin addresses and was introduced in our **IEEE Big Data 2022** paper, accessible [here](https://ieeexplore.ieee.org/abstract/document/10020980).
+The **BASD-8** serves as our primary dataset for experiments. It captures **transactional subgraph structures** of Bitcoin addresses and was introduced in our **IEEE Big Data'22** paper, accessible on [Kaggle](https://ieeexplore.ieee.org/abstract/document/10020980).
 
 ## 2. Bitcoin Address Behavior Dataset ([BABD-13](https://www.kaggle.com/datasets/lemonx/babd13))  
-To explore the differences between **raw graph structures** and **graph-derived features**, we also use the **Bitcoin Address Behavior Dataset (BABD-13)**. This dataset contains the same addresses as BASD-8 but focuses on **behavioral patterns** derived from Bitcoin transactions. It was introduced in our **IEEE Transactions on Information Forensics and Security (TIFS) 2024** paper, available [here](https://ieeexplore.ieee.org/abstract/document/10375557).
+To explore the differences between **raw graph structures** and **graph-derived features**, we also use the **BABD-13**. This dataset contains the same addresses as BASD-8 but focuses on **behavioral patterns** derived from Bitcoin transactions. It was introduced in our **IEEE TIFS'24** paper, available on [Kaggle](https://ieeexplore.ieee.org/abstract/document/10375557).
 
 
 ## 
