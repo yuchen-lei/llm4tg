@@ -28,14 +28,15 @@ BASD-8 serves as our primary dataset for experiments. It captures *transactional
 BABD-13 is used to explore the differences between *raw graph structures* and *graph-derived features*. The subset of this dataset used in this work contains the same addresses as BASD-8 but focuses on *behavioral patterns* derived from Bitcoin transactions. It was introduced in our [**IEEE TIFS'24** paper](https://ieeexplore.ieee.org/abstract/document/10375557).
 
 
-
 ## Layered Assessment Framework
+
 
 
 ## LLM4TG Format
 (purpose and which file) The structure of the Bitcoin transaction graph inputting to LLMs is shown in ...
 The data could be found in BASD-8 update.
 
+Data of LLM4TG format subgraph can be also found on Kaggle BASD-8 project.
 
 ## CETraS Algorithm
 (purpose and which file) This algorithm compressed the ... subgraphs 
