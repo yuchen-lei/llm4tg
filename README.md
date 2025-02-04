@@ -28,9 +28,7 @@ BASD-8 serves as our primary dataset for experiments. It captures *transactional
 BABD-13 is used to explore the differences between *raw graph structures* and *graph-derived features*. The subset of this dataset used in this work (i.e., `babd13-slim.csv`) contains the same addresses as BASD-8 but focuses on *behavioral patterns* derived from Bitcoin transactions. It was introduced in our [**IEEE TIFS'24** paper](https://ieeexplore.ieee.org/abstract/document/10375557).
 
 
-# Layered Assessment Framework
-
-
+## Layered Assessment Framework
 
 We propose a **three-level framework** for measuring the understanding of a transaction graph. The following illustration and descriptions provide an overview of the proposed framework and its levels:
 
@@ -40,21 +38,21 @@ We propose a **three-level framework** for measuring the understanding of a tran
 
 ---
 
-## **Level 1 - Foundational Metrics**  
+### **Level 1 - Foundational Metrics**  
 LLMs can determine the **basic information** of the graph (see `lv1_nodebasic`), such as:  
 - **In-degree** of a node  
 - **Output token amount** of a node  
 
 ---
 
-## **Level 2 - Characteristic Overview**  
+### **Level 2 - Characteristic Overview**  
 LLMs can identify **key characteristics** of the graph (see `lv2_characteristic`), for example:  
 - A node with a **significantly large out-degree**  
 - A node that transfers a **significantly large total amount of tokens**
 
 ---
 
-## **Level 3 - Contextual Interpretation**  
+### **Level 3 - Contextual Interpretation**  
 LLMs can classify **cryptocurrency address types** for **unlabeled addresses** by leveraging labeled address samples (see `lv3_categorize`).  
 
 ---
@@ -63,14 +61,12 @@ LLMs can classify **cryptocurrency address types** for **unlabeled addresses** b
 ## LLM4TG Format
 
 We denote T as transaction and A as address. <NodeID> represents the node’s ID, <Number> represents an integer. <Float> represents a real number. The **LLM4TG** syntax is displayed as follows:
+
 <div align="center">
   <img src="img/LLM4TG.png" alt="Framework Overview" width="40%">
 </div>
 
-(purpose and which file) The structure of the Bitcoin transaction graph inputting to LLMs is shown in ...
-The data could be found in BASD-8 update.
-
-Data of LLM4TG format subgraph can be also found on Kaggle BASD-8 project.
+The dataset in the LLM4TG format for subgraphs is also available in the [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8).
 
 ## CETraS Algorithm
 (purpose and which file) This algorithm compressed the ... subgraphs 
