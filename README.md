@@ -72,7 +72,9 @@ We analyzed token consumption for various graph representation formats (*GEXF*, 
   <img src="img/tokens-node.png" alt="Framework Overview" width="40%">
 </div>
 
-Moreover, the format transfer code is implemented in the function **`graph_full_repr`** within the file `llm4tg_repr.py`. Additionally, the **dataset in the LLM4TG format** for subgraphs is also available in the [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8).
+Moreover, the format transfer code is implemented in the function **`graph_full_repr`** within the file `llm4tg_repr.py`. 
+
+Additionally, the **dataset in the LLM4TG format** for subgraphs is also available in the [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8).
 
 
 ## CETraS Algorithm
