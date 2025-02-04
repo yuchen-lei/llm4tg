@@ -20,7 +20,12 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 - [Acknowledgment](#acknowledgment)
 
 ## Dataset and Preprocess
-The primary dataset used in the experiments is the **Bitcoin Address Subgraph Dataset** - [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8) proposed in [our paper](https://ieeexplore.ieee.org/abstract/document/10020980). In addition, to explore the feature differences between graph-level and graph feature-level, we apply the same addresses to BASD-8 in the **Bitcoin Address Behavior Dataset** - [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13) proposed in [our another paper](https://ieeexplore.ieee.org/abstract/document/10375557), implemented via `1-extract.py`. The corresponding LLM4TG format subgraph dataset is also available on [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8).
+### 1. Bitcoin Address Subgraph Dataset (BASD-8)  
+The **Bitcoin Address Subgraph Dataset (BASD-8)** is our primary dataset for experiments. It was introduced in our paper, which you can access [here](https://ieeexplore.ieee.org/abstract/document/10020980). The dataset is available on Kaggle: [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8).
+
+### 2. Bitcoin Address Behavior Dataset (BABD-13)  
+To explore differences between **graph-level** and **graph feature-level** characteristics, we also use the **Bitcoin Address Behavior Dataset (BABD-13)**. This dataset includes the same addresses as BASD-8 and was introduced in our paper, which you can find [here](https://ieeexplore.ieee.org/abstract/document/10375557). You can access the dataset on Kaggle: [BABD-13](https://www.kaggle.com/datasets/lemonx/babd13).
+
 
 
 
