@@ -22,10 +22,10 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 
 ## Dataset 
 ## 1. Bitcoin Address Subgraph Dataset ([BASD-8](https://www.kaggle.com/datasets/lemonx/basd8))  
-The **BASD-8** serves as our primary dataset for experiments. It captures **transactional subgraph structures** of Bitcoin addresses and was introduced in our [**IEEE Big Data'22** paper](https://ieeexplore.ieee.org/abstract/document/10020980).
+**BASD-8** serves as our primary dataset for experiments. It captures **transactional subgraph structures** of Bitcoin addresses and was introduced in our [**IEEE Big Data'22** paper](https://ieeexplore.ieee.org/abstract/document/10020980).
 
 ## 2. Bitcoin Address Behavior Dataset ([BABD-13](https://www.kaggle.com/datasets/lemonx/babd13))  
-To explore the differences between **raw graph structures** and **graph-derived features**, we also use the **BABD-13**. This dataset contains the same addresses as BASD-8 but focuses on **behavioral patterns** derived from Bitcoin transactions. It was introduced in our [**IEEE TIFS'24** paper](https://ieeexplore.ieee.org/abstract/document/10375557).
+To explore the differences between **raw graph structures** and **graph-derived features**, we also use **BABD-13**. This dataset contains the same addresses as BASD-8 but focuses on **behavioral patterns** derived from Bitcoin transactions. It was introduced in our [**IEEE TIFS'24** paper](https://ieeexplore.ieee.org/abstract/document/10375557).
 
 
 ## Layered Assessment Framework
