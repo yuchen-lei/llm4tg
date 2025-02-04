@@ -74,8 +74,13 @@ We analyzed token consumption for various graph representation formats (GEXF, GM
 
 Moreover, the **dataset in the LLM4TG format** for subgraphs is also available in the [BASD-8](https://www.kaggle.com/datasets/lemonx/basd8).
 
+
 ## CETraS Algorithm
-(purpose and which file) This algorithm compressed the ... subgraphs 
+Despite LLM4TG's efficiency, some transaction graphs are too large for tasks like classification that involve few-shot learning, which processes multiple graphs at once. To tackle this, we introduce CETraS, a method that condenses mid-sized transaction graphs while maintaining essential structures. The algorithm is shown below:
+
+<div align="center">
+  <img src="img/CETraS.png" alt="Framework Overview" width="40%">
+</div>
 
 
 ## Additional Notes
