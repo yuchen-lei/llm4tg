@@ -29,10 +29,23 @@ BABD-13 is used to explore the differences between *raw graph structures* and *g
 
 
 ## Layered Assessment Framework
-We propose a three-level framework for measuring the understanding of transaction graph:
-• Level 1 - foundational metrics: LLMs can determine the basic information of the graph such as the in-degree and output token amount of a node (``).
-• Level 2 - characteristic overview: LLMs can figure out the highlighted characteristics of the graph, e.g., a node has a significantly large out-degree (``).
-• Level 3 - contextual interpretation: LLMs can classify cryptocurrency address types for addresses without labels based on labeled address samples (``).
+
+We propose a **three-level framework** for measuring the understanding of a transaction graph:
+
+### • Level 1 - Foundational Metrics (`lv1_nodebasic`)
+LLMs can determine the **basic information** of the graph, such as:
+- **In-degree** of a node  
+- **Output token amount** of a node  
+
+### • Level 2 - Characteristic Overview (`lv2_characteristic`)
+LLMs can identify **key characteristics** of the graph, for example:
+- A node with a **significantly large out-degree**  
+- Other distinguishing features that stand out in the transaction graph  
+
+### • Level 3 - Contextual Interpretation (`lv3_categorize`)
+LLMs can classify **cryptocurrency address types** for **unlabeled addresses** by leveraging labeled address samples.
+
+
 
 
 ## LLM4TG Format
