@@ -2,12 +2,12 @@
 
 This project includes the source code for our work "**Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study**". If you find our work helpful for your research, please consider citing it as:
 
-  @article{lei2025large,
-    title={Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study},
-    author={Lei, Yuchen and Xiang, Yuexin and Wang, Qin and Dowsley, Rafael and Yuen, Tsz Hon and Yu, Jiangshan},
-    journal={arXiv preprint arXiv:2501.18158},
-    year={2025}
-  }
+    @article{lei2025large,
+      title={Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study},
+      author={Lei, Yuchen and Xiang, Yuexin and Wang, Qin and Dowsley, Rafael and Yuen, Tsz Hon and Yu, Jiangshan},
+      journal={arXiv preprint arXiv:2501.18158},
+      year={2025}
+    }
 
 ## Contents
 
