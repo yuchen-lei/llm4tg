@@ -14,8 +14,8 @@ If you have any questions please feel free to contact me by e-mail at Yuexin.Xia
 ## Contents
 
 - [Dataset and Preprocess](#dataset-and-preprocess)
-- [LLM4TG](#llm4tg)
-- [CETraS](#cetras)
+- [LLM4TG Format](#llm4tg-format)
+- [CETraS](#cetras-algorithm)
 - [Experiment](#experiment)
 - [Acknowledgment](#acknowledgment)
 
@@ -24,11 +24,11 @@ The primary dataset used in the experiments is the **Bitcoin Address Subgraph Da
 
 
 
-## LLM4TG
+## LLM4TG Format
 (purpose and which file) The structure of the Bitcoin transaction graph inputting to LLMs is shown in ...
 
 
-## CETraS
+## CETraS Algorithm
 (purpose and which file) This algorithm compressed the ... subgraphs 
 
 
