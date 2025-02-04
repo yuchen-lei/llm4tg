@@ -1,6 +1,6 @@
 # LLM4TG
 
-This project includes the source code for our work "**Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study**". If you find our work helpful for your research, please consider citing it as:
+This project includes the source code for our work **[Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study](https://arxiv.org/abs/2501.18158)**. If you find our work helpful for your research, please consider citing it as:
 
     @article{lei2025large,
       title={Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study},
