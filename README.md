@@ -33,7 +33,7 @@ BABD-13 is used to explore the differences between *raw graph structures* and *g
 We propose a **three-level framework** for measuring the understanding of a transaction graph, the following illustration provides an overview of the proposed framework:
 
 <div align="center">
-  <img src="img/Framework.png" width="500" height="600" alt="Structure">
+  <img src="img/Framework.png" width="300" height="250" alt="Structure">
 </div>
 
 The detailed level descrptions are shown below:
