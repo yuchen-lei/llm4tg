@@ -50,7 +50,7 @@ LLMs can determine the **basic information** of the graph (see `lv1_nodebasic`),
 ## **Level 2 - Characteristic Overview**  
 LLMs can identify **key characteristics** of the graph (see `lv2_characteristic`), for example:  
 - A node with a **significantly large out-degree**  
-- Other distinguishing features that stand out in the transaction graph  
+- A node that transfers a **significantly large total amount of tokens**
 
 ---
 
