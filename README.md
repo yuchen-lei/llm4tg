@@ -85,7 +85,7 @@ Despite LLM4TG's efficiency, some transaction graphs are too large for tasks lik
 
 ## Additional Notes
 
-`aux_querygpt` function is used for querying through OpenAI APIs.
+`aux_querygpt.py` is used for querying through OpenAI APIs.
 
 
 ## Acknowledgment
