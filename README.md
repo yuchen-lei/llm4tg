@@ -55,7 +55,7 @@ LLMs can identify **key characteristics** of the graph (see `lv2_characteristic`
 ---
 
 ## **Level 3 - Contextual Interpretation**  
-LLMs can classify **cryptocurrency address types** for **unlabeled addresses** by leveraging labeled address samples (see (`lv3_categorize`)).  
+LLMs can classify **cryptocurrency address types** for **unlabeled addresses** by leveraging labeled address samples (see `lv3_categorize`).  
 
 ---
 
