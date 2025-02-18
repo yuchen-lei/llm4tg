@@ -95,6 +95,6 @@ Despite LLM4TG's efficiency, some transaction graphs are too large for tasks lik
 `ver1` is the previous version of the implementation.
 
 ## Acknowledgment
-This research is supported by **OpenAI Researcher Access Program**.
+This research is supported by [**OpenAI Researcher Access Program**](https://openai.com/form/researcher-access-program).
 
 
