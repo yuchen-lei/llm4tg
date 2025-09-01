@@ -1,0 +1,292 @@
+{
+  "1255efYAn53zjTt2KViMxm3vufmzVwsdKn": {
+    "most_important_features": {
+      "PTIa41-2": "The value (110.94283564814816) is significantly higher than the reference graphs' average for the minimum transaction time interval of an address node, suggesting less frequent but possibly larger transactions, which can be characteristic of gambling behaviors where transactions occur after longer intervals.",
+      "S5": "The value (3.786677959522172) is higher than the average closeness centrality of reference graphs, indicating a more tightly connected graph which can be important in gambling graphs where transactions might be between a more cohesive set of nodes.",
+      "S2-2": "The maximum out-degree (97) is moderate when compared to reference graphs, suggesting significant activity but not to the extremes seen in darknet markets or exchanges. This could be indicative of gambling behavior where there are several outgoing transactions but not as many as the most active categories like exchanges."
+    },
+    "reasoning": {
+      "PTIa41-2": "The gambling label graphs (graphs 16 to 20) tend to have higher PTIa41-2 values, indicating less frequent transactions, which aligns with the query graph. This suggests that PTIa41-2 is a distinguishing feature for gambling.",
+      "S5": "Closeness centrality (S5) for the query graph is higher than most reference graphs, especially when compared to other gambling graphs. This might suggest that the nodes in the query graph are more central to the network, which could be important for ensuring swift transactions in gambling.",
+      "S2-2": "The maximum out-degree (S2-2) is not as high as in graphs associated with darknet market or exchange activities, which tend to have very high out-degrees, but is significant nonetheless. This could reflect the number of payouts or bets being placed in a gambling scenario."
+    }
+  },
+  "123uCzUxsBn3bRhuZjkYMQxMBxTW8bcDNv": {
+    "PTIa41-2": "The PTIa41-2 value of 95.75914351851851 is significantly higher than the average PTIa41-2 values of the reference graphs, indicating an exceptionally long minimum transaction time interval for this node. This could signify infrequent but potentially large transactions, which is a characteristic that can be important in identifying certain types of activity such as gambling.",
+    "PAIa21-1": "The PAIa21-1 value is 1.0, which is the maximum value and indicates that all input tokens come from a single transaction. This feature stands out because it is a stark contrast to more diversified transaction sources and could point to a specific behavior pattern common in gambling activities where a user might deposit tokens in a gambling service.",
+    "S3": "The S3 value of -0.1328882076090658 is less negative compared to the average degree correlation (S3) of the reference graphs, suggesting a less pronounced assortative mixing pattern. This might indicate that there is less preference for nodes to connect with others that have similar degree, which could be relevant in understanding the structure and dynamics of the gambling graph."
+  },
+  "bc1q5u3wtzmaw35jrgg8shrd0x7x2cyp8e3anrj982": {
+    "most_important_features": {
+      "S2-2": "The maximum out-degree in the graph is 1, which is significantly lower than the average maximum out-degree of the reference graphs, indicating a lack of a dominant node with a high number of outgoing edges.",
+      "S1-6": "The standard deviation of the in-degree and out-degree in the graph is 0.5442057368973355, which is higher than many of the reference graphs, suggesting a greater variability in the number of connections each node has.",
+      "PAIa21-1": "The ratio of the minimum input token amount of an address node to the total input token amount of an address node is 1.0, which is equal to the maximum possible value of this ratio, indicating that all incoming transactions are of the same token amount, a feature that is not common in the majority of the reference graphs."
+    },
+    "reasoning": {
+      "S2-2": "This value is indicative of a graph with a non-centralized structure, as there are no nodes with a high out-degree, which could imply a more distributed network where influence or control is not centralized in a few nodes.",
+      "S1-6": "A higher standard deviation in degrees suggests that the graph's nodes do not consistently have similar numbers of connections, which might indicate the presence of both highly connected and isolated nodes within the network.",
+      "PAIa21-1": "A value of 1.0 in this ratio suggests that every input transaction to the node has the same token amount. This is uncommon in usual transaction patterns and might indicate a controlled flow of transactions, which is a characteristic that could be related to specific behaviors such as money laundering or other illicit activities."
+    }
+  },
+  "18hYGKk8BcreieeJwNqSBsuVCeDXTmmQ91": {
+    "most_important_features": {
+      "S2-2": "The maximum out-degree of this graph is 1536, which is significantly higher than that of most reference graphs, indicating a very active node or a hub in the network which can be a characteristic of the exchange category.",
+      "PAIa21-1": "The ratio of the minimum input token amount of an address node to the total input token amount is 1.0, which is the maximum possible value, suggesting that there is a single input transaction for address nodes. This feature is common in the exchange category, as seen in graphs 11, 12, 13, 14, 15, and other exchange-labeled graphs.",
+      "PTIa41-2": "The minimum transaction time interval of an address node is extremely low at 0.0188541666666666, which is lower than the average across the reference graphs. This suggests that transactions occur in rapid succession, a feature that might indicate high liquidity and frequent trading, typical for an exchange."
+    },
+    "reasoning": "These features are considered the most important because they deviate significantly from the averages seen in the reference graphs and align with the characteristics of the graph's labeled category, which is 'exchange'. High out-degree suggests a node with many outgoing connections, common in exchanges. A PAIa21-1 value of 1.0 indicates all funds coming from a single source, and a very short PTIa41-2 indicates high-frequency activity, both of which are typical in exchange platforms."
+  },
+  "13NibfakFeSkuruEjMkF6ZbChgphaYehGT": {
+    "S2-2": "The maximum out-degree of 824 is relatively high, indicating a single node with significant outward transaction connections, which is not common in many types of graphs and can be associated with centralized control or activity hubs in illicit networks.",
+    "PTIa41-2": "The minimum transaction time interval of 0.0049652777777777 is extremely low, suggesting that there are rapid successive transactions occurring at one node, which could be indicative of automated or systematic behavior unlike typical human-driven transactions.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval of 201.3986013986014 is significantly higher than all reference graphs, which implies highly unusual activity, possibly indicating bursty behavior as seen in fraud or money laundering activities."
+  },
+  "1BWG2fXTajNR7tfXsV1XASzewkSSBqtCPv": {
+    "most_important_features": {
+      "PTIa41-2": "The minimum transaction time interval of the query graph is significantly lower than that of all the reference graphs, indicating highly frequent transactions which may be characteristic of certain types of activity such as tumblers.",
+      "S5": "The closeness centrality of the query graph is higher than that of any reference graph, suggesting a tightly-knit network where each node can reach every other node with fewer steps on average.",
+      "PAIa21-1": "The ratio of the minimum input token amount of an address node to the total input token amount is higher than the average, especially when compared to graphs labelled as 'ponzi', 'darknet market', and 'blackmail', but lower compared to 'tumbler', 'gambling', 'exchange', and 'pool', which might indicate a specific transaction pattern or behavior."
+    },
+    "reasoning": {
+      "PTIa41-2": "The value 0.0015625 is much lower than the reference graphs' values, some of which are several orders of magnitude higher. This suggests that the transactions in the query graph occur in rapid succession compared to those in the reference graphs.",
+      "S5": "The value 4.382540487180171 is the highest among all graphs, indicating that the query graph has a structure that potentially facilitates faster and more direct transactions between nodes.",
+      "PAIa21-1": "While not the highest, the value 0.32422 is significant and indicates a more balanced distribution of input token amounts among the addresses, as opposed to being skewed towards smaller or larger transactions. It's lower than what we see in many 'tumbler', 'gambling', 'exchange', and 'pool' graphs, which can be characteristic of mixing services or platforms with a large number of similar-size transactions."
+    }
+  },
+  "18HY28mfBxPVqKtA8Ng6qLVqCDMZZsu8zu": {
+    "S2-2": "The maximum out-degree of 2771 is significantly higher than the average of all reference graphs, suggesting that there is an extremely active node in the graph which could indicate a central point of activity or a hub in the network structure.",
+    "PAIa21-1": "The value of 1.0 for the ratio of the minimum input token amount to the total input token amount indicates that there is an address node with a single transaction that accounts for all of its input token amount. This is a unique feature and deviates from the norm seen in other graphs, possibly indicating a specialized behavior or an outlier in transaction patterns.",
+    "PTIa41-2": "The minimum transaction time interval of 0.0254629629629629 is much lower than the average of the reference graphs. This could imply a very high frequency of transactions for at least one address node, which might be characteristic of automated or systematized processes."
+  },
+  "114B8ii9KT96NfXjUbCp5WuretrDYiobhb": {
+    "S2-2": "The maximum out-degree of 46 is significantly lower than that of the reference graphs, especially those involved in darknet markets and exchanges, which have maximum out-degrees in the thousands. This indicates that the graph under analysis likely represents a smaller-scale operation or a different type of activity.",
+    "PAIa21-1": "The ratio of the minimum input token amount to the total input token amount is 1.0, which is a maximum and a common value for several types of activities, including gambling, money laundering, and pools. However, it does not provide a distinctive characteristic to set the graph apart from these activities.",
+    "S5": "The closeness centrality of 3.6964824750763614 is higher than the average of the reference graphs, suggesting that the graph is relatively well-connected. This could indicate an active network with many participants interacting frequently, which can be a feature of gambling networks where many users are constantly transacting."
+  },
+  "13ky7a9AkfYmhtxRuWAQ8fau5QjVAdyFGU": {
+    "feature_1": {
+      "name": "S5",
+      "reason": "The value of the closeness centrality (S5) is significantly higher than the average of the reference graphs indicating that the nodes in this graph are, on average, closer to all other nodes in the network, which may suggest a tightly-knit group characteristic of the blackmail label."
+    },
+    "feature_2": {
+      "name": "CI3a32-2",
+      "reason": "The maximum value of the ratio of the change in in-degree per transaction time interval (CI3a32-2) is higher than the majority of reference graphs, highlighting a potential pattern of rapid increase in in-degree within certain time periods, which can be indicative of activity spikes common in blackmail operations."
+    },
+    "feature_3": {
+      "name": "PAIa21-1",
+      "reason": "The ratio of the minimum input token amount to the total input token amount of an address node (PAIa21-1) is relatively low compared to other reference graphs with the blackmail label, suggesting that the minimum transaction amounts are not negligible and could be significant in the context of the graph's transactions."
+    }
+  },
+  "321X5RXmLNpKDF7LYPNPD6ModdPRupKJ9H": {
+    "S2-2": "The maximum out-degree of 32 is considerably lower than some of the reference graphs, particularly those associated with darknet markets (e.g., graphs 06, 07, 08), which have S2-2 values in the thousands. This indicates that the graph in question may represent a smaller or less active darknet market than those represented in the reference graphs.",
+    "PTIa41-2": "The minimum transaction time interval of 0.0 is notably lower than all reference graphs, which suggests that there are back-to-back transactions without time gaps. This could be indicative of automated processes or a system with high liquidity and frequent trades.",
+    "S7": "The density of the graph is 0.0, which is significantly lower than any of the reference graphs, including those labeled as 'darknet market'. This suggests that the graph is very sparse, meaning it has few connections relative to the number of nodes, which could be characteristic of a network in its early stages of formation or one that operates with a limited number of trusted connections."
+  },
+  "11DzAdeW2BwxRsraZpRQQbY45msFzL4Sf": {
+    "S2-2": "The maximum out-degree of 85 is moderate when compared to the reference graphs. It is not as high as the values seen in darknet markets or exchanges, which reach into the thousands, but it is significantly higher than some of the lower values seen in money laundering or ponzi graphs. This suggests a moderate level of activity that is characteristic of gambling operations.",
+    "S1-6": "The standard deviation of the in-degree and out-degree of 0.0426109064441845 is relatively low, indicating that the degrees of the nodes in this graph are fairly uniform. This stands out when compared to reference graphs, especially those representing darknet markets and pools, which have much higher standard deviations. This could suggest that the graph represents a system with uniform transaction patterns, consistent with gambling activities.",
+    "S3": "The degree correlation of -0.2469607426366014 is indicative of a disassortative mixing pattern in the network. It is not as negative as some of the extreme values seen in the reference graphs, but it is in line with the values for other gambling graphs. This suggests that nodes in the network are more likely to be connected to nodes with dissimilar degrees, which is typical of customer-service provider relationships in gambling networks."
+  },
+  "115kMVerszvaDpUA3QQvjU24zjLcLcmxsR": {
+    "S5": "The closeness centrality of the graph is 3.804469488920643, which is higher than the average closeness centrality of the reference graphs labeled as 'gambling'. This suggests that the nodes in the graph are generally closer to each other than in the average 'gambling' graph, indicating a tight-knit network.",
+    "PTIa41-2": "The minimum transaction time interval of an address node is 18.410613425925924, which is significantly higher than the average PTIa41-2 values seen in the reference graphs, particularly those labeled 'gambling'. This indicates that the transactions in this graph are spaced out over longer intervals than usual, which could be characteristic of the behavior being analyzed.",
+    "PAIa21-1": "The ratio of the minimum input token amount of an address node to the total input token amount of an address node is 1.0. This is significantly higher than the PAIa21-1 values of other reference graphs, and it's consistent across various labels, indicating that for at least one address in the graph, all the tokens come from a single input, which could be a distinct behavioral pattern."
+  },
+  "32bYqZ2GmPDYZGqk1Ab3VT35tn3RBsgZzR": {
+    "most_important_features": {
+      "feature_1": {
+        "name": "S2-2",
+        "reason": "The value of S2-2 for the analyzed graph is significantly higher than the average of the reference graphs, indicating a much higher maximum out-degree which is a characteristic of centralization and could be linked to the graph's function."
+      },
+      "feature_2": {
+        "name": "S1-6",
+        "reason": "The value of S1-6 is relatively high, showing that there is a high standard deviation of the in-degree and out-degree in the graph. This suggests significant variations in the transaction volumes of nodes, which is typical for darknet market activity where certain nodes could be responsible for a large number of transactions."
+      },
+      "feature_3": {
+        "name": "S3",
+        "reason": "The degree correlation, indicated by S3, is negative and relatively close to the lower values found in the darknet market reference graphs. This suggests a disassortative mixing pattern, which means that nodes tend to connect with others that have a different number of connections, typical in hierarchical or brokered transaction networks."
+      }
+    }
+  },
+  "1KyAvpDvhFowvsMgRy4iB8YnQpGKXwU4g7": {
+    "most_important_features": {
+      "S5": "The closeness centrality is significantly higher than average, indicating that nodes in the graph are closer to each other on average compared to reference graphs.",
+      "PTIa41-2": "The minimum transaction time interval is considerably lower than average, suggesting very rapid transactions between nodes, which is atypical for the reference graphs.",
+      "PAIa21-1": "The ratio of the minimum input token amount to the total input token amount is 1.0, which is either significantly higher or denotes a singular input transaction, differentiating it from many reference graphs where this value varies."
+    },
+    "reasoning": {
+      "S5": "The value of closeness centrality for the query graph is 4.025420619529325, which is substantially higher than any of the reference graphs, indicating a unique structure where nodes are on average closer to all other nodes in the network.",
+      "PTIa41-2": "The minimum transaction time interval of the query graph is 0.0050694444444444, which is much lower than reference graphs, signifying an anomaly in transaction speed.",
+      "PAIa21-1": "A value of 1.0 in the query graph for PAIa21-1 stands out as it either indicates only one input transaction or all minimum input token amounts are equal to the total input token amounts, which is not a common pattern observed in the reference graphs."
+    }
+  },
+  "31x7fJCMJa28EVcAB1jV8seLab8eAJuWZb": {
+    "S2-2": "The maximum out-degree in the graph is 2941, which is significantly higher than most of the reference graphs, suggesting this node has a high level of activity compared to others.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in the graph is 0.9792181952263344, which is on the higher end among reference graphs, indicating a wide variation in the number of connections per node.",
+    "PAIa21-1": "The ratio of the minimum input token amount of an address node to the total input token amount of an address node is 1.0. This implies that there is a node that, for at least one transaction, contributed all of the input tokens, which could indicate a central source of funds."
+  },
+  "328EECsXLYaVhc9Xq39ZeP9oEc5SEgwxQz": {
+    "S2-2": "The maximum out-degree in the graph is 2139, which is significantly higher than that of most of the reference graphs, indicating that there is at least one node with a very high number of outgoing edges. This could suggest that the node is a central hub in the network, possibly indicating a central player or service in the darknet market context.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in the graph is 0.7135665639101584, which is higher than the average of the reference graphs. This high standard deviation indicates a significant variation in the number of connections that nodes in the graph have, which can be characteristic of networks where certain nodes act as hubs with many connections, while others have very few. This is often seen in illicit networks where a few nodes control most of the transactions.",
+    "PTIa41-2": "The minimum transaction time interval of an address node is 0.0062268518518518, which is extremely low compared to most of the reference graphs. This suggests that there are nodes within the graph that are performing transactions in rapid succession, which could be indicative of automated processes or behaviors specific to darknet markets, such as bots or mixers that process transactions quickly to anonymize activity."
+  },
+  "125gSs2bkHFkDXB3fpU6PAYqTkgTxJPNq5": {
+    "most_important_features": {
+      "PTIa41-2": "The value of the minimum transaction time interval of an address node (85.79851851851852) is significantly higher than the average of the reference graphs, indicating infrequent transactions or longer periods between transactions, which could be characteristic of the gambling category.",
+      "PAIa21-1": "The ratio of the minimum input token amount of an address node to the total input token amount of an address node is 1.0, which is at the maximum possible value and indicates that there might be transactions where the minimum input amount equals the total input amount, suggesting a pattern of one-time transactions or full balance transfers, which is a notable characteristic.",
+      "S5": "The closeness centrality value (3.4216341239274315) is higher than average, suggesting that the nodes in this graph are, on average, closer to all other nodes in the network, which can be a feature of certain gambling networks where funds may be moved more rapidly through the network."
+    }
+  },
+  "32iGiasU8W8QUyVWg5cCHmTQeLHbmpWsNS": {
+    "S2-2": "The maximum out-degree of 2956 is significantly higher than the average of the reference graphs, indicating a very active node or set of nodes which could be indicative of a central authority or a hub in darknet market activity.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node (505.2631578947368) is extremely high compared to the reference graphs. This suggests that there are periods of intense activity followed by lulls, which could be characteristic of bursty transaction behavior often seen in markets.",
+    "PTIa41-2": "The minimum transaction time interval of 0.0019791666666666 is much lower than the average of the reference graphs, which could imply that the graph has a very high frequency of transactions occurring in rapid succession, possibly reflecting automated or systematic trading."
+  },
+  "1211haXc5x1wxqreChZA1V6H9mY8dnffqZ": {
+    "Most_Important_Features": {
+      "PTIa41-2": "The minimum transaction time interval of an address node in the graph is significantly higher than the average of the reference graphs, indicating infrequent transactions which could be characteristic of gambling behavior.",
+      "S5": "The closeness centrality is higher compared to most reference graphs, especially those with the 'gambling' label, which might suggest a tighter network with shorter paths between nodes, common in gambling networks.",
+      "S7": "The density of the graph is on the lower side when compared to reference graphs, especially for those labeled as 'gambling', which may indicate a sparser network typical of gambling graphs."
+    }
+  },
+  "31niWr5Y4EP8efy7hMrR4pNmZ16fLWxco2": {
+    "S2-2": "The maximum out-degree of 2899 is very high, significantly higher than the average of the reference graphs, indicating a node with a vast number of outward connections. This suggests an active or central participant, typical of darknet market behavior where a central entity interacts with many users.",
+    "S1-6": "The standard deviation of the in-degree and out-degree of 0.9651970096788896 is high, which is above the average of the reference graphs. This indicates a large variability in the number of connections per node, which is characteristic of networks with a mix of highly connected nodes and numerous less connected ones.",
+    "PTIa41-2": "The minimum transaction time interval of 0.0807523148148148 is very low, much lower than the average of the reference graphs. This implies very rapid transactions occurring within the network, which could be associated with automated or systematic processes often seen in darknet markets."
+  },
+  "31z3uYebfEx2Pt7EzMAHUi5pYNyqENbuVX": {
+    "S2-2": "The maximum out-degree of 2973 is significantly higher than most of the reference graphs, suggesting a node with a very high number of outgoing transactions, which is characteristic of markets or services with many outgoing payments.",
+    "S1-6": "The standard deviation of the in-degree and out-degree is 0.9898460171700572, which is relatively high compared to most of the reference graphs. This indicates a significant variability in the number of transactions per node, which could imply a complex network with nodes that vary widely in their transaction activity.",
+    "PAIa21-1": "The ratio of the minimum input token amount to the total input token amount of an address node is 1.0, which is at the maximum possible value. This suggests that there are nodes in the graph that only have a single transaction, which could be indicative of a behavior pattern where addresses are used once and then abandoned."
+  },
+  "bc1q3xu2p9m69v0f2n52ch4d5tvr75526t00hvf54w": {
+    "most_important_features": {
+      "S2-2": "The maximum out-degree of 1748 is significantly higher than the average of the reference graphs, indicating a node with an unusually high number of outward connections, which is a distinctive characteristic.",
+      "S1-6": "The standard deviation of the in-degree and out-degree of 0.6095802250279144 is higher compared to many of the reference graphs, implying a greater variability in the number of connections per node, which could be indicative of an irregular network structure.",
+      "PAIa21-1": "The ratio of 1.0 for the minimum input token amount to the total input token amount suggests that there is a node that only has a single input transaction, which is an uncommon trait among the reference graphs and may point to a specific usage pattern or behavior."
+    },
+    "reasoning": "These features are chosen as they show significant deviation from the average values observed in the reference graphs, which could potentially indicate unique or anomalous behavior within the graph. The high maximum out-degree (S2-2) suggests the presence of a hub or a highly active node, which is a key aspect in network analysis. The high standard deviation in node degrees (S1-6) points to an uneven distribution of connections, which could reflect a non-uniform structure. Lastly, a PAIa21-1 value of 1.0 indicates a peculiar transaction pattern that is not commonly found in the reference set, possibly hinting at a specific operational characteristic of the node in question."
+  },
+  "115q6DqcPbTrsPm5gv7xbuePvezjRLtGUU": {
+    "most_important_features": {
+      "PAIa21-1": "The value of PAIa21-1 is 1.0, which indicates that the minimum input token amount of an address node to the total input token amount of the node is very high. This feature stands out because in many of the reference graphs, particularly those associated with gambling, money laundering, and pools, PAIa21-1 is also 1.0, suggesting a pattern where a single transaction dominates the input token amount for those nodes.",
+      "PTIa41-2": "The minimum transaction time interval of 91.47199074074074 is significantly higher than the average of the reference graphs, indicating that the address node in question has very infrequent transactions, which could be characteristic of certain types of behavior such as gambling, where transactions might occur after longer intervals.",
+      "S3": "The degree correlation of -0.3034879754172663 is a relatively strong negative correlation, suggesting that nodes in the graph tend to not link to other nodes with similar degree. This is important in understanding the structure of the graph and could be indicative of a network where high-degree nodes are not preferentially connected to other high-degree nodes, which might be common in gambling networks."
+    }
+  },
+  "114iyrTbcRQdJrD8iUeFAQbRgM8XNuyFM5": {
+    "most_important_features": {
+      "PTIa41-2": "The PTIa41-2 value is significantly higher than the average of reference graphs, indicating very long minimum transaction time intervals which could be characteristic of a gambling graph to avoid transaction patterns that are too regular.",
+      "PAIa21-1": "The PAIa21-1 value is 1.0 which is the maximum and same as many reference graphs, showing that there is a node with all its input tokens coming from a single transaction, which can be an indicator of a controlled flow of tokens typical in gambling platforms.",
+      "S3": "The S3 value is -0.2869398604643264, which is more negative than average, indicating a stronger negative degree correlation. This could imply a hierarchical structure common in gambling graphs where there are many participants with a smaller number of transactions and few 'hubs' with a large number of transactions."
+    }
+  },
+  "1227AU32baSnqraA7Tx38h4TGtin62fwAM": {
+    "most_important_features": {
+      "PAIa21-1": "The value of PAIa21-1 is 1.0, which is significantly higher than the average of the reference graphs where this value varies but includes several lower than 1.0. This indicates that the address node in question has a high ratio of minimum input token amount to the total input token amount, suggesting a potential pattern of receiving funds that are not further distributed, which is a characteristic commonly seen in gambling operations.",
+      "PTIa41-2": "The minimum transaction time interval of 27.152465277777782 is notably higher than many of the reference graphs, especially those labeled as gambling. This could imply that this address node has less frequent transactions, which could be a characteristic of a gambling service that processes bets or payouts in larger, less frequent transactions.",
+      "S5": "The closeness centrality value of 3.8199682287529786 is quite high compared to the reference graphs, suggesting that the nodes in this graph are on average closer to all other nodes, which might be indicative of a network where funds move quickly and efficiently, a possible feature of gambling networks where players often cash in and out frequently."
+    },
+    "reasoning": "The selected features are considered most important based on their deviation from the common values observed in the reference graphs and considering the label 'gambling' associated with the query graph. PAIa21-1 is particularly distinctive and notably different, PTIa41-2 suggests less frequent yet potentially significant transactions, and S5 indicates a tightly-knit network structure which is characteristic of gambling platforms."
+  },
+  "13eWVHRW7aS8JdU7DckXpDvD8Lg39yaFP1": {
+    "S2-2": "The value of 480 for maximum out-degree is significantly lower than the high values observed in darker activities such as darknet markets (values in thousands), but higher than many other categories, such as blackmail or gambling.",
+    "PTIa41-2": "The minimum transaction time interval of approximately 0.001 is extremely low, suggesting very rapid successive transactions, which is not a common trait across most reference graphs.",
+    "CI3a32-2": "The maximum ratio of the change in in-degree per transaction time interval is 960, which is orders of magnitude higher than almost all other reference graphs, indicating a very sharp increase in in-degree in a very short time, which is unusual and could imply spam or a flood attack."
+  },
+  "18hXK3RBBjKRscEfi3qGBCVM2eqnahjC6b": {
+    "CI3a32-2": "The value 103.59712230215828 is significantly higher than the average of the reference graphs, indicating a large change in in-degree per transaction time interval for an address in the graph. This could suggest significant activity spikes in the graph.",
+    "S2-2": "The maximum out-degree of 88 is moderate when compared to the reference graphs, where the maximum out-degree ranges from 1 to 2973. It does not stand out as particularly high or low.",
+    "PAIa21-1": "The ratio of the minimum input token amount to the total input token amount of an address node is 0.00509, which is low but not extremely so when compared to the reference graphs. It indicates that the minimum transaction amount is a small fraction of the total, which could suggest a diverse range of transaction sizes."
+  },
+  "12r8QFKrGD1pX7ozxi16bnQq58NFdLzUpF": {
+    "most_important_features": {
+      "S2-2": "The maximum out-degree of 1233 is significantly higher than the average out-degree in reference graphs labeled as 'blackmail', indicating a potential central hub or a few nodes with an exceptionally high number of outbound connections, which is a characteristic of graphs involved in blackmail activities.",
+      "PAIa21-1": "The ratio of the minimum input token amount of an address node to the total input token amount (0.00273) is relatively low compared to the reference blackmail graphs, suggesting that the address node receives a diverse range of transaction amounts, a potential indication of a blackmail operation trying to avoid detection by varying the transaction amounts.",
+      "CI3a32-2": "The maximum value of the ratio of the change in in-degree per transaction time interval (1.7129602093618033) is notably higher than most reference blackmail graphs, which can imply a significant change in behavior over time, possibly as a result of receiving ransom payments or other blackmail-related transfers."
+    }
+  },
+  "1KNa9uAuaNTYSwfc5tFCD81w38fvD2nLjQ": {
+    "most_important_features": {
+      "S2-2": "The maximum out-degree of 2018 is significantly higher than the average of the reference graphs, indicating a node with a very high number of outgoing transactions which could be a central point in the transaction network.",
+      "S1-6": "The standard deviation of the in-degree and out-degree is 0.6731984014576352, which is higher than most of the reference graphs. This suggests a greater variability in the number of transactions per node, which can be a sign of a complex and less uniform transaction pattern.",
+      "PTIa41-2": "The minimum transaction time interval of 0.0083449074074074 is much lower than the average of the reference graphs, pointing towards a very fast rate of transactions for at least one node, which could indicate automated or programmed transactions typical for tumbler services."
+    }
+  },
+  "18Hum5j1wpZ6UDqUhuLFNAZ9hW2w2CVni5": {
+    "most_important_features": {
+      "S2-2": "The value 478 is significantly lower compared to darknet markets (graphs 06-10) which have values above 2000, but higher than the majority of other types including exchanges (graphs 11-15), indicating a moderate level of activity that is typical for an exchange.",
+      "PAIa21-1": "The value 0.49031 is significantly lower than the value of 1.0 seen in the majority of the graphs, suggesting that this graph has more distribution in its transactions rather than having transactions dominated by a few nodes, which is a characteristic that can be associated with exchanges.",
+      "S7": "The density of 0.3363774733637747 is within a range that is comparable to those of other exchanges (graphs 11-15), which typically have densities between 0.33 and 0.35. This suggests that the graph has a similar level of interconnectedness to other exchange graphs."
+    }
+  },
+  "18HVcDErCSR6m2VehttJYoxj3imU6pQqAJ": {
+    "S2-2": "The maximum out-degree (307) is significantly lower than the highest values observed in darknet markets and exchange graphs (which have values in the thousands), indicating a less centralized and possibly less active network.",
+    "S1-6": "The standard deviation of the in-degree and out-degree (0.1642363504087048) falls within the lower range of the reference graphs, suggesting a more homogeneous distribution of connections among nodes in the graph.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval (1.4949390085647547) is higher than the average of the reference graphs, indicating more variability in the transaction activity over time in this graph."
+  },
+  "183oLN2miUCzYhquAu7RUm4i1sX5AD5uoY": {
+    "most_important_features": {
+      "S2-2": "The maximum out-degree of 1303 is significantly higher than the average of reference graphs, indicating a highly active or central node which is a characteristic of tumblers used to obfuscate large transactions.",
+      "PAIa21-1": "The ratio of 1.0 for the minimum input token amount to the total input token amount shows that there are transactions where the minimum and total input token amounts are equal, suggesting possible automated or standardized transactions, which is a common feature in tumblers.",
+      "PTIa41-2": "The minimum transaction time interval of approximately 0.076 days is lower than the average of reference graphs, suggesting frequent transactions which could imply a tumbler's activity designed to mix coins more efficiently."
+    },
+    "reasoning": "These features are important because they deviate from the norm established by the reference graphs and are indicative of behavior characteristic of a tumbler. High out-degree suggests a central node involved in dispersing funds, a PAIa21-1 of 1.0 indicates all funds from an address may be moved in a single transaction, and a low PTIa41-2 suggests rapid transactions, all of which are consistent with tumbler activity meant to obfuscate the flow of funds."
+  },
+  "13K332SEysdGVkSC5turTLz9MLekfXmUMy": {
+    "S2-2": "The maximum out-degree of 1791 is significantly higher than most reference graphs, indicating that one node in this graph has a very large number of outgoing transactions, which is unusual and could be indicative of the graph's function or behavior.",
+    "S1-6": "The standard deviation of the in-degree and out-degree of 0.5975291790548491 is higher than average, suggesting a high variability in the number of transactions per node, which could imply the presence of both very active and very inactive nodes within the network.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval of 1.370623602011517 is considerably higher than many reference graphs, which may signal rapid accumulation of incoming transactions in short time intervals for certain nodes, a pattern that could be associated with the blackmail activity labeled in this graph."
+  },
+  "18HwhCdfhx7kXSAvX12hQwFC7KxhVWzWC6": {
+    "most_important_features": {
+      "CI3a32-2": "Significantly higher than reference graphs, indicating rapid changes in in-degree per transaction time interval",
+      "S7": "Higher than average density compared to reference graphs, indicating a more interconnected network",
+      "S3": "Lower degree correlation than most reference graphs, suggesting less assortativity in the node connections"
+    },
+    "reasoning": {
+      "CI3a32-2": "The value 485.3932584269663 is substantially higher than any CI3a32-2 values in the reference graphs, which suggests that there are extreme changes in the in-degree of nodes over time intervals in this graph. This could be indicative of bursty behavior typical for exchanges where there are periods of high activity followed by quieter periods.",
+      "S7": "The density value of 0.7444444444444445 is higher than that of all reference graphs, indicating a more densely connected network. This is an important characteristic as it might imply a higher level of interaction between the nodes, which is consistent with the behavior of an exchange where many users are constantly transacting.",
+      "S3": "The degree correlation value of -0.3009514795464511 indicates a disassortative mixing pattern which is lower than most of the reference graphs. This suggests that nodes tend to connect with others that have dissimilar degrees, which could be due to the nature of exchanges where small traders interact with larger exchange wallets or hubs."
+    }
+  },
+  "bc1q3gf57vpn2lawpkcvghgc584gxsddtp8vnu8f7n": {
+    "most_important_features": {
+      "PAIa21-1": "The value of PAIa21-1 is 1.0, which is significantly higher than the average of the reference graphs. This suggests that there is an address node with all its input tokens coming from a single transaction, which could indicate a specific pattern of activity within the graph.",
+      "PTIa41-2": "The minimum transaction time interval of an address node (PTIa41-2) is 0.1229166666666666, which is lower than the average of the reference graphs. This indicates that transactions are happening at a faster rate for at least one address node in the graph, which could be characteristic of certain types of activities.",
+      "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order (CI3a32-2) is 0.0. This is notably different from some of the reference graphs where this value is significantly higher, which could point to a lack of sudden spikes in transaction volume over time intervals."
+    }
+  },
+  "31oc7Qtj4axHN2cWK5gBpMcCNCFeY4sUgj": {
+    "most_important_features": {
+      "S2-2": "The maximum out-degree of 2934 is significantly higher than the average of reference graphs, indicating a highly active node which could be a distinguishing characteristic of the graph.",
+      "S1-6": "The standard deviation of the in-degree and out-degree is 0.9768616695182544, which is high and suggests a large variability in the node connections within the graph. This is typical for graphs with a few very active nodes and many less active ones.",
+      "S3": "The degree correlation of -0.3282603651642948 is similar to the darknet market reference graphs, which have negative degree correlations, indicating a disassortative mixing pattern where high-degree nodes tend to connect with low-degree nodes."
+    },
+    "reasoning": {
+      "S2-2": "The value of 2934 is much higher than the other reference graphs, which suggests that the graph has a very prominent hub or a set of hubs, characteristic of darknet market structures.",
+      "S1-6": "The value is on the higher end of the spectrum in comparison to reference graphs, especially when compared to graphs labeled as 'darknet market,' which means this graph has a similar degree variance pattern.",
+      "S3": "The negative value is indicative of a network structure where it is more likely for nodes with high degree to connect with nodes of low degree. This is a common characteristic in darknet markets, where 'hub' nodes (such as marketplaces) interact with many 'spoke' nodes (such as individual sellers or buyers)."
+    }
+  },
+  "18Hu8bzTeyguy9R2Y2Z7QsXHAskqrkYGsx": {
+    "S2-2": "The maximum out-degree in the graph is 1890, which is significantly higher than the average of reference graphs, indicating the presence of a highly active node, or 'hub', which is typical of networks like exchanges where one node interacts with many others.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in the graph is 0.6344086221307731, which is higher than the average of reference graphs, suggesting a more heterogeneous connectivity pattern among nodes, possibly indicating a mixed set of behaviors or roles within the network.",
+    "PAIa21-1": "The ratio of the minimum input token amount of an address node to the total input token amount of an address node is 0.14363, which is higher than those graphs labeled as 'darknet market', 'money laundering', or 'ponzi', but lower than the reference graphs labeled as 'exchange'. This suggests that the graph has a diversity in transaction volumes, consistent with behaviors seen in exchanges."
+  },
+  "1JL2KvrccFSaxCAxnciyUMjr2UmSJafRk3": {
+    "S2-2": "The maximum out-degree of 2033 is significantly higher than the average of the reference graphs, indicating that there is a node with an exceptionally high number of outgoing edges, which is a characteristic often seen in graphs representing entities like tumblers that aggregate and distribute transactions.",
+    "S1-6": "The standard deviation of in-degree and out-degree is 0.6771520215175578, which is higher than the average of the reference graphs. This suggests that the graph has a more uneven distribution of connections, which could be indicative of the presence of a few highly connected nodes amid many with low connectivity, a pattern that might be observed in networks involving mixing or tumbling services.",
+    "PTIa41-2": "The minimum transaction time interval of an address node is 0.4578587962962963, which falls within the lower range when compared to the reference graphs. This implies that transactions occur in rapid succession, a feature that could be associated with automated processes such as those used by tumblers to obfuscate the trail of cryptocurrency transactions."
+  },
+  "13JwXoHHdtZpWxsyph5avNds19Ys1tG3TW": {
+    "S2-2": "The maximum out-degree of 4 is significantly lower than that of most reference graphs. This indicates that the graph has a relatively limited number of outgoing connections from a single node, which can be a distinctive feature.",
+    "PAIa21-1": "The ratio of the minimum input token amount of an address node to the total input token amount of 0.00009 is extremely low, much lower than all the reference graphs, which typically have values of 1.0 or close to it. This could suggest a unique behavior or pattern in terms of token distribution for the graph.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node of 0.8063010937325021 is higher than that of many reference graphs, especially those labeled with 'blackmail'. This could indicate a particular pattern of in-degree change over time that is characteristic of the graph."
+  },
+  "32f15BpHaLmZj6pnHkzdXNCDHJveo7tKVe": {
+    "S2-2": "The maximum out-degree of 498 is significantly lower than that of many reference graphs, particularly those labeled as 'darknet market', 'exchange', and 'tumbler', indicating this graph may not be as centralized around a few nodes compared to those categories.",
+    "PAIa21-1": "The ratio of the minimum input token amount to the total input token amount being 1.0 suggests that there is a uniformity in transaction amounts, or that there is only a single input transaction, which is atypical when compared to the majority of other reference graphs.",
+    "S7": "The density value of 0.3908496732026144 is higher than most reference graphs, pointing to a relatively higher level of connectivity between nodes in this graph, which can be an impactful characteristic in distinguishing its structure and function from others."
+  }
+}

@@ -1,0 +1,27 @@
+- role: system
+  msg: >
+    Please provide the results in JSON format.
+    The result should be a dict indicating which features are the most obvious characteristics of the graph.
+    The keys should be the feature names, and the values should be the one of reason.
+    The reference graphs are the graphs that are used to compare with the query graph.
+    The meaning of the keys representing graph characteristics are as follows:
+      S2-2: The maximum out-degree in graph.
+      S1-6: The standard deviation of the in-degree and out-degree in graph. 
+      S1-2: The standard deviation of in-degree in graph. 
+      S3: The degree correlation of graph. 
+      PAIa21-1: The ratio of the minimum input token amount of an address node to the total input token amount of an address node. 
+      PTIa41-2: The minimum transaction time interval of an address node. 
+      S6: The longest distance between any two nodes in graph. 
+      S5: The closeness centrality of graph.
+      CI3a32-2: The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order. 
+      S7: The density of graph.  
+    The features of reference graphs are shown below.
+    {features}
+
+- role: user
+  msg: |
+    Find out the most important 3 features of the graph.
+    And explain why you think these features are the most important.
+    e.g.: the value is higher or lower than average of reference graphs.
+    The graph to anaylze:
+    {graph}

@@ -1,0 +1,19 @@
+- role: system
+  msg: >
+    Please provide the results in JSON format.
+    The result should be a dict indicating which features are the most obvious characteristics of the graph.
+    Every graph, including reference graphs and query graph, is one of [blackmail, darknet market, exchange, gambling, money laundering, ponzi, pool, tumbler]
+    The reference graphs are the graphs that are used to compare with the query graph.
+    Each reference graph have some layers which contains address nodes or transaction nodes.
+    The nodes' info, including edges, is given once per line.
+    The reference graphs are shown below:
+    {graph_ref}
+
+- role: user
+  msg: |
+    Find out the most important 3 features of the graph.
+    And explain why you think these features are the most important.
+    e.g.: the value or structure comparing to reference graphs.
+    answer should be a dict with 3 keys, each key is a feature name, and the value is the reason.
+    The graph to anaylze:
+    {graph}

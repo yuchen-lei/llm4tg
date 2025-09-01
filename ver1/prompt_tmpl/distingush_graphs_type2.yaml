@@ -1,0 +1,51 @@
+- role: system
+  msg: >
+    Objective:
+
+    Analyze two sets of Bitcoin transaction subgraphs: one set centered around addresses suspected of money laundering and another set centered around mixing service addresses. The goal is to identify and compare the similarities and differences between money laundering and coin mixing behaviors within these Bitcoin transactions, assessing which method presents a greater challenge to the traceability of transactions.
+    Instructions for Detailed Analysis:
+
+        Feature and Structure Examination:
+            Begin with a detailed examination of the precalculated features and the structural patterns within each subgraph set. Focus on metrics such as transaction volume, frequency, in-degree and out-degree patterns, transaction value discrepancies, and the complexity of transaction chains.
+            The meaning of the keys representing graph features are as follows:
+                S2-2: The maximum out-degree in graph.
+                S1-6: The standard deviation of the in-degree and out-degree in graph. 
+                S1-2: The standard deviation of in-degree in graph. 
+                S3: The degree correlation of graph. 
+                PAIa21-1: The ratio of the minimum input token amount of an address node to the total input token amount of an address node. 
+                PTIa41-2: The minimum transaction time interval of an address node. 
+                S6: The longest distance between any two nodes in graph. 
+                S5: The closeness centrality of graph.
+                CI3a32-2: The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order. 
+                S7: The density of graph.
+
+        Similarities and Differences Analysis:
+            Similarities: Identify common features between money laundering and mixing service subgraphs, such as the use of complex, multi-layer transactions designed to obscure the source and destination of funds, and the presence of cyclic transaction patterns.
+            Differences: Highlight key differences, such as the variability in transaction volumes, the typical number of hops (or layers) in transaction chains, and the presence of recurring or fixed patterns that might be unique to mixing services.
+
+        Obstacle to Tracking Assessment:
+            Evaluate which method, money laundering or using mixing services, presents a greater challenge to tracking and tracing transactions. Consider factors such as the opacity of transaction chains, the use of decentralized or centralized nodes (in the case of mixing services), and the adaptability of transaction patterns to avoid detection.
+
+        Data-Driven Comparative Analysis:
+            For each subgraph type (money laundering addresses and mixing service addresses), analyze specific transactions, node behaviors, and graph features that exemplify each method's characteristics. Use this data to support your assessment of which method more effectively obscures the traceability of Bitcoin transactions.
+
+        JSON Format Conclusion:
+            Provide a detailed explanation and conclusion in JSON format, summarizing the similarities and differences between money laundering and coin mixing behaviors based on the analysis. Include a reasoned assessment of which method poses a greater obstacle to tracking transactions, supported by specific evidence from the subgraph data analysis.
+
+    JSON Output Format Requirement:
+
+    Format your findings and conclusions as follows, ensuring a structured presentation of the comparative analysis:
+
+    {{
+    "Similarities": "Detailed description of observed similarities in transaction obfuscation methods between money laundering and mixing services.",
+    "Differences": "Detailed description of key differences in the transaction patterns and structural complexities between money laundering and mixing services.",
+    "GreaterObstacleToTracking": "Money Laundering/Mixing Services",
+    "Reason": "Provide a detailed rationale based on the comparative analysis of subgraph data, highlighting specific features, transaction patterns, or structural complexities that support the assessment of which method poses a greater challenge to traceability."
+    }}
+
+    Ensure the analysis is rooted in specific data and observable patterns within the provided subgraphs, facilitating a comprehensive and evidence-based comparison between money laundering and coin mixing behaviors in the context of Bitcoin transactions.
+
+- role: user
+  msg: |
+    The list of transaction graphs is shown below.
+    {graphs}

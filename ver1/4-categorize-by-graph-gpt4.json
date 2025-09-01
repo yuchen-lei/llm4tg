@@ -1,0 +1,362 @@
+{
+  "35hAw5AFT1SRHtVU4TcS3mgdKp9W12hxzb": {
+    "ground_truth": "pool",
+    "llm_result": [
+      "pool",
+      "exchange",
+      "gambling"
+    ],
+    "llm_explain": "The graph shows a structure where a large volume of transactions is sent from one address to a large number of other addresses, which is characteristic of mining pools distributing rewards (hence 'pool' being the top category). The high volume and many outward transactions also resemble behaviors seen in exchanges and gambling platforms, where funds are frequently moved in a variety of transactions, possibly to multiple users or for multiple bets/plays."
+  },
+  "11VvtKifYPtU16HFu8mjc1n4squpYa2wS": {
+    "ground_truth": "gambling",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "exchange"
+    ],
+    "llm_explain": "The graph shows a pattern of splitting transactions into smaller amounts, which is common in tumblers and money laundering activities to obscure the traceability of funds. Additionally, the presence of multiple transaction layers and the distribution of funds across various addresses suggest an attempt to mix and distribute funds in a way that resembles the functionality of a cryptocurrency exchange or tumbler service."
+  },
+  "12xwXVSFGDiwfytQsnizs4hdcCEEKzo8Hc": {
+    "ground_truth": "tumbler",
+    "llm_result": [
+      "tumbler",
+      "darknet market",
+      "exchange"
+    ],
+    "llm_explain": "The graph shows several layers with transactions feeding into other transactions, a characteristic of tumblers designed to obscure the trail of funds. The multiple transactions with small amounts and the structure of layers are in line with typical tumbler behavior. The complexity and number of transactions are also similar to what might be seen in darknet market activities for obscuring purchase trails. Additionally, some aspects of the graph, like multiple inputs and outputs, are common in exchanges, where funds are often pooled and redistributed."
+  },
+  "13pdBWHXL5NHtibSZ2y1Gn4aioYqxyS1Bt": {
+    "ground_truth": "blackmail",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "exchange"
+    ],
+    "llm_explain": "The analyzed graph has a structure with multiple layers and a high volume of transactions, which is similar to the tumbler and money laundering graphs. The flow of funds is spread across a network of transactions and addresses, which is characteristic of tumblers used to obfuscate the source of funds. The significant amount of funds involved and the complexity of the transaction network also align with patterns observed in money laundering activities. Although there is a resemblance to exchange graphs due to the high volume, the transaction patterns are more complex, indicating a higher likelihood of tumbling or laundering rather than straightforward exchange activity."
+  },
+  "124KiH3ZtKPXLSVoARxsBGXpGNimSb8TE8": {
+    "ground_truth": "gambling",
+    "llm_result": [
+      "exchange",
+      "gambling",
+      "tumbler"
+    ],
+    "llm_explain": "The structure of the graph shows multiple layers with transactions flowing from a few initial nodes to a broader set of addresses, which is characteristic of exchange and tumbler activities that aim to spread and mix funds. However, the presence of transactions with multiple inputs and outputs, as well as the distribution of in_values and out_values across the network, also suggests elements of gambling activity, where funds are pooled and redistributed. The absence of clear signs of illicit activities such as blackmail or ransomware payments, as well as the lack of a structure indicative of Ponzi schemes or pools, supports the conclusion that exchange, gambling, and tumbler are the most likely categories."
+  },
+  "bc1qgq929xfgtmq4kw23y4pa3yg3qgrmlrtu2qwftg": {
+    "ground_truth": "blackmail",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "darknet market"
+    ],
+    "llm_explain": "The graph structure and transaction patterns resemble a mix characteristic of tumbler, exchange, and darknet market categories. The transactions involve multiple layers and distribute funds through a complex flow, which is typical in a tumbler to obfuscate the transaction trail. However, the presence of in-degrees and out-degrees on address nodes also suggests exchange-like characteristics, where funds are consolidated and then redistributed. The presence of a few nodes with larger transactions could indicate a darknet market where large transactions are split into smaller amounts for distribution. The decision is based on the complexity of transactions, the distribution of funds across layers, and the mix of large and small transaction values."
+  },
+  "32Bu1FhSs8FHqGptcB1uphFJcAgcgTvShV": {
+    "ground_truth": "darknet market",
+    "llm_result": [
+      "pool",
+      "exchange",
+      "darknet market"
+    ],
+    "llm_explain": "The structure of the query graph shows a pattern of pooling where multiple smaller transactions are gathered into a larger address node (Layer 2) and then disbursed again in many smaller transactions (Layer 3). This resembles the behavior of a mining pool or a service that aggregates many inputs and then distributes payouts. Additionally, the presence of a significant number of transactions and address nodes, as well as the high total value moved, is indicative of a service handling a large volume of transactions, which is typical for exchanges and darknet markets. However, the lack of direct evidence such as known service addresses or specific transaction patterns associated exclusively with exchanges or darknet markets leads to the conclusion that the graph most closely resembles a pool, with exchange and darknet market being less likely but still possible categories."
+  },
+  "322DcLt77SRQ6C97XtScdRNkHpz5EJbknt": {
+    "ground_truth": "darknet market",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "darknet market"
+    ],
+    "llm_explain": "The structure of the graph resembles typical patterns observed in tumbler services, as multiple transactions are designed to obfuscate the trail of the funds. Additionally, the high volume of transactions occurring within a single layer and the significant amount of funds being moved are characteristic of exchanges and could indicate darknet market activity due to the potential need for anonymity."
+  },
+  "18HU5CrTPPpbnFF5Qn4vg6S6Nq1s1jPWGL": {
+    "ground_truth": "exchange",
+    "llm_result": [
+      "exchange",
+      "darknet market",
+      "tumbler"
+    ],
+    "llm_explain": "The analyzed graph shows a structure with large amounts of transactions concentrated in a few nodes, which is characteristic of exchanges or services that aggregate many users' transactions. The high in_value and out_value on the address nodes in Layer 2 suggest a pooling of funds, which is common in exchanges and darknet markets. Additionally, the presence of many transactions with a slightly lower out_value than in_value is indicative of transaction fees, which are common in exchanges and tumblers as they process transactions. The lack of a clear illicit activity pattern and the structured flow of funds also align with the behaviors of tumblers that aim to obscure the transaction trail, making it a potential category."
+  },
+  "1HepvEVnkMNCJ5iD7RHJVyk1ZiXzUM9PcQ": {
+    "ground_truth": "ponzi",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "pool"
+    ],
+    "llm_explain": "The graph shows a high number of transactions with multiple inputs and outputs, a characteristic similar to tumbler services that aim to obfuscate the source of funds. The large total input and output values also suggest movements of funds similar to exchange or pool activity, where consolidation and payout transactions are common."
+  },
+  "13ajfLBScsUNSJ3t65fsCmT1TRkQCUMYA1": {
+    "ground_truth": "blackmail",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "gambling"
+    ],
+    "llm_explain": "The transactions spread funds from a few inputs to many outputs with similar values, which is indicative of a tumbler attempting to obfuscate the flow of funds. The presence of transactions with a larger number of inputs and outputs is also characteristic of an exchange, where funds are pooled and redistributed. Additionally, the large number of address nodes and transaction nodes is reminiscent of gambling activity, where many bets are placed and payouts are made."
+  },
+  "bc1q8nfsy9l69q9029s5lsslze0crmdpmfglds0l0p": {
+    "ground_truth": "blackmail",
+    "llm_result": [
+      "exchange",
+      "gambling",
+      "darknet market"
+    ],
+    "llm_explain": "The graph exhibits a pattern where a single address node has a high in_degree and out_degree, indicating a collection and distribution point, which is consistent with behavior seen in exchanges. The presence of a single layer of address nodes also aligns with gambling activity, where bets may be pooled and payouts distributed. The high value of transactions is reminiscent of darknet market activity, where goods or services may be exchanged for cryptocurrency. The structure, however, is less hierarchical than typical money laundering or ponzi schemes, and does not match the patterns of pools or tumblers which often have more complex layers or obfuscation techniques."
+  },
+  "11FJmD1snmr6LKymdmJCQuZcTRYx8tvWw": {
+    "ground_truth": "gambling",
+    "llm_result": [
+      "exchange",
+      "tumbler",
+      "darknet market"
+    ],
+    "llm_explain": "The structure of the graph and flow of transactions are indicative of an 'exchange', as there is a large volume of transactions with a common node, similar to how an exchange would aggregate trades. The in and out values are also large and are processed through fewer nodes, which is typical of exchanges facilitating user transactions. The possibility of 'tumbler' is considered due to the mixing-like behavior observed in the transaction patterns, which could be used to obfuscate the movement of funds. 'Darknet market' is a less likely option but included due to the potential involvement of multiple transactions that could be related to illicit goods trading. However, the distinguishing characteristics aren't as strong as the first two categories."
+  },
+  "1GNseKGrXjvgArmwKmtuygeMXquqpD3aSV": {
+    "ground_truth": "tumbler",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "darknet market"
+    ],
+    "llm_explain": "The graph shows several layers of transactions with a structure that includes a high number of transactions in the middle layers that aggregate value from multiple addresses and distribute it to many others, resembling the mixing and splitting of funds characteristic of tumblers. The presence of transactions with a large number of input nodes also suggests potential exchange activity. Finally, the presence of multiple subsequent layers and the distribution pattern could indicate a darknet market where funds are moved through various steps to obfuscate the source and destination."
+  },
+  "116Ei2uhefa9G9xi7uyHuPWTp4SXXY1UuQ": {
+    "ground_truth": "gambling",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "exchange"
+    ],
+    "llm_explain": "The graph shows a pattern of transactions that aim to obscure the trail of funds, which is typical for tumblers and money laundering activities. A single address node feeding into a transaction node with a high number of input nodes and then distributing to a large number of address nodes in the next layer is indicative of an effort to obfuscate the origin of funds. Additionally, the use of multiple transaction layers with a significant number of address nodes and transaction nodes increases the complexity of tracking funds, which aligns with the obfuscation methods used by tumblers and money laundering schemes. While exchanges also have complex transaction patterns with multiple layers, the specific pattern of distribution and the large volume of addresses involved make tumbler and money laundering more likely categories."
+  },
+  "121cjeM4J7SoGExnrnzFCznG6G2X4ZWteU": {
+    "ground_truth": "gambling",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "pool"
+    ],
+    "llm_explain": "The observed graph has a structure where a small number of input nodes fan out to a larger number of transaction nodes, which is characteristic of a tumbler service that attempts to obfuscate the source of funds. The presence of large value transactions and a significant number of intermediary transactions also resembles characteristics of money laundering activity. Lastly, the presence of a single address node and multiple transaction nodes with multiple inputs and outputs is somewhat similar to a mining pool's payout structure, which is why 'pool' is included as the third possibility."
+  },
+  "112gd88nphUQdppcp2rnV6R7d5LCnsqyok": {
+    "ground_truth": "gambling",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "pool"
+    ],
+    "llm_explain": "The query graph has a layered structure with a small number of nodes that distribute to an increasingly larger number of nodes, which is similar to the tumbler and pool reference graphs where funds are consolidated and then distributed. The high in_degree on the layer 2 address node in the query graph is indicative of a consolidation step often seen in tumblers and pools. The involvement of multiple transaction nodes in layer 1 also resembles the complexity of transaction flows in exchanges, making it a possible category, although it is less likely than tumbler or pool due to the lack of a large number of address nodes in the final layer which are typically present in exchange graphs."
+  },
+  "12geBY8T72FFhCYkGRCGtiiAqG3T8LTcnG": {
+    "ground_truth": "blackmail",
+    "llm_result": [
+      "exchange",
+      "darknet market",
+      "pool"
+    ],
+    "llm_explain": "The graph has a structure where a single address node has transactions with a high in_degree, suggesting collection of funds, which then outputs to multiple addresses, resembling behavior seen in exchange or pool activities. The high value of transactions also aligns with exchange-like behavior. Additionally, the flow of funds from many to a few addresses also resembles darknet market behavior."
+  },
+  "124mpePGM2vEqcHUK96wQXur9vS7Vn7Kdj": {
+    "ground_truth": "gambling",
+    "llm_result": [
+      "exchange",
+      "darknet market",
+      "tumbler"
+    ],
+    "llm_explain": "The analyzed graph has transaction nodes with high in-degree and out-degree, which is a common feature in exchange and darknet market graphs where there are many inputs and outputs for transactions. Additionally, the time range of the nodes is consistent with patterns seen in tumbler services used to obfuscate the source of funds. The structure does not align with typical gambling or ponzi scheme patterns, which often have a clear flow of funds from multiple participants to a central entity or from a central entity to multiple participants with clear payout structures."
+  },
+  "32kAwfCWHrGub7AkGn6UutnKYJo6efcSfL": {
+    "ground_truth": "darknet market",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "darknet market"
+    ],
+    "llm_explain": "The graph has a structure that includes multiple layers and transactions nodes similar to a tumbler, which typically involves complex layers to obscure the source and destination of funds. Additionally, the high volume of transactions and the amount of value transferred are characteristic of exchanges. The involvement of address nodes with a high number of transactions also suggests possible darknet market activity."
+  },
+  "1AYx5TLLY5TrUQDm4QeAGfZy34SgxF29oe": {
+    "ground_truth": "tumbler",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "gambling"
+    ],
+    "llm_explain": "The graph shows a pattern of splitting and merging transactions that is characteristic of a tumbler, aimed at obfuscating the transaction trail. The presence of multiple input and output nodes, as well as the relatively high in and out values, are similar to the reference tumbler graph. The structure also has some similarities with exchange and gambling graphs, where funds can be aggregated from many users (inputs) and distributed (outputs), but the primary matching with the tumbler's behavior is the most significant."
+  },
+  "18hTUuL6UVhsbfzSkHp83mBmZZCyo2NSHa": {
+    "ground_truth": "exchange",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "pool"
+    ],
+    "llm_explain": "The graph shows a pattern of splitting transactions into smaller amounts, commonly associated with tumblers. Additionally, the large number of transactions suggests an automated system, which is characteristic of tumblers and money laundering activity. The transaction amounts do not match typical gambling or ponzi scheme behaviors and are more consistent with methods used to obscure the flow of funds, as seen in money laundering and pool operations for cryptocurrency mixing."
+  },
+  "32iUPBxejNtQZ51VvtzLGgXS2TJcCyconY": {
+    "ground_truth": "darknet market",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "darknet market"
+    ],
+    "llm_explain": "The high number of transactions from a single address node and the distribution of funds to multiple nodes is indicative of mixing services, similar to the structure seen in reference graphs for tumblers. Additionally, the large in and out values of funds at certain nodes suggest high-volume transactions that are common in exchanges and darknet markets, hence these are also potential categories."
+  },
+  "13nsNBfoVwXDHY4puRD1AHjARbomKhsxEL": {
+    "ground_truth": "blackmail",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "darknet market"
+    ],
+    "llm_explain": "The structure of the graph is characterized by a few initial addresses connected to a larger number of transactions, which is typical for a tumbler attempting to obfuscate the origins of funds. Additionally, there is a significant amount of value being moved, and the presence of high in_degree and out_degree nodes suggests mixing services, which are commonly associated with tumblers. The structure is less indicative of a typical exchange pattern, which often has more layered and diverse interactions, but it's still possible due to the value movements. Darknet market is considered due to the transaction patterns and potential involvement of multiple parties."
+  },
+  "1DJHryFRoSjGPFMmuWEkiPUzLrzfaGKx2N": {
+    "ground_truth": "tumbler",
+    "llm_result": [
+      "tumbler",
+      "gambling",
+      "ponzi"
+    ],
+    "llm_explain": "The graph shows a pattern of transactions where funds seem to be divided and distributed in a manner consistent with a tumbler, attempting to obscure the source and destination of the funds. There are multiple layers with funds being split and then consolidated, which is also a characteristic seen in gambling and ponzi schemes, but the structure is most indicative of a tumbler service."
+  },
+  "34nkJq8X2yT4X49mcpfsD9uGNuK6LWnkqr": {
+    "ground_truth": "blackmail",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "darknet market"
+    ],
+    "llm_explain": "The structure of the graph shows multiple layers of transactions with varying in and out degrees, suggesting an effort to obfuscate the flow of funds. Such characteristics are common in tumblers and money laundering activities. The significant volume of transactions and the distribution across multiple layers also resemble patterns seen in darknet market operations, where funds might be layered to disguise the original source."
+  },
+  "13eWVHRW7aS8JdU7DckXpDvD8Lg39yaFP1": {
+    "ground_truth": "blackmail",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "exchange"
+    ],
+    "llm_explain": "The query graph shows characteristics of a mixing or tumbling service, where transaction nodes have multiple inputs and outputs, indicative of an attempt to obfuscate the flow of funds. The high volume of addresses and transactions, as well as the significant disparity between in_value and out_value, suggest mixing activity. Money laundering is also a possibility, given the complexity and volume designed to hide the origin of funds. Lastly, the exchange category is considered due to the volume and structure of transactions which may represent trade activity; however, the lack of clear 'cash out' points makes it less likely than tumbler or money laundering."
+  },
+  "18hYj7GSW2A48nKPAr1e2ejUpovo7y921V": {
+    "ground_truth": "exchange",
+    "llm_result": [
+      "tumbler",
+      "pool",
+      "exchange"
+    ],
+    "llm_explain": "The structure of the graph shows a pattern of transactions where a large number of inputs are consolidated into single transactions which are then split into many outputs. This resembles the behavior of a tumbler service, designed to obfuscate the source of funds. It also has similarities with a mining pool, where many contributions are gathered and rewards are distributed. The high volume of transactions and movement of funds could also indicate an exchange, but the obfuscation pattern is more indicative of a tumbler or pool."
+  },
+  "32Jp4dqNgVroyRHFNVTfUMiHZ4wPWMdif8": {
+    "ground_truth": "darknet market",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "darknet market"
+    ],
+    "llm_explain": "The query graph has a structure where there is a significant number of transaction nodes connected to a single address node, which is characteristic of a tumbler service that mixes transactions to anonymize the source of funds. The volume of transactions and the obfuscation of fund sources is also indicative of money laundering activities. Additionally, the presence of transaction layers with multiple address nodes linked to a high volume of transactions is reminiscent of darknet market operations, where funds may be pooled and redistributed."
+  },
+  "32iW9BzNxbdxJrA2WLKwoZUQoZ8r9Tmqw9": {
+    "ground_truth": "darknet market",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "exchange"
+    ],
+    "llm_explain": "The graph shows patterns of mixing and splitting transactions with a large number of inputs and outputs, which is characteristic of tumblers and money laundering activities. Additionally, the presence of multiple transactions with a substantial total value being transferred in a complex manner also suggests possible exchange activities."
+  },
+  "31usMfYwUPVbP88vBJp3kmN8MuhZhc5d58": {
+    "ground_truth": "darknet market",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "exchange"
+    ],
+    "llm_explain": "The graph shows characteristics of a tumbler with multiple transactions designed to obfuscate the trail of the original funds. The large number of address nodes in layer 2, and a high volume of transaction nodes in layer 3, suggest a complex series of transactions that may be intended to conceal the source or destination of the funds, which is a common pattern in tumbling and money laundering activities. The transaction values do not decrease dramatically as they would in a ponzi scheme, nor is there a consistent in- and out-degree pattern as seen in mining pools. The involvement of a high number of transactions and address nodes also resembles the activity of an exchange, which is why it is included as the third possible category."
+  },
+  "32CbbRjVindXe8Jc3cab4dKB8LFHNaNVtk": {
+    "ground_truth": "darknet market",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "darknet market"
+    ],
+    "llm_explain": "The presence of a central node with a high volume of transactions that are redistributed to many other nodes suggests patterns of mixing or tumbling services, which are commonly used to obscure the origins of funds. These patterns are also characteristic of money laundering activities, where the obfuscation of fund sources is a key goal. Additionally, the use of such services may also be associated with darknet market activities, although the presence of a single central node is less indicative of a marketplace structure and more suggestive of a service aimed at concealing transaction trails."
+  },
+  "1236bD6Ty4BEwtn9zqJmJuH1qk1Ph5wiNC": {
+    "ground_truth": "gambling",
+    "llm_result": [
+      "exchange",
+      "darknet market",
+      "gambling"
+    ],
+    "llm_explain": "The graph shows a pattern of transactions where a small number of input addresses are consolidating funds and then distributing them to a larger number of output addresses. This pattern is indicative of a service that aggregates funds from multiple users and redistributes them, which is common in cryptocurrency exchanges and darknet markets. Additionally, the large value transactions involved are more characteristic of these services than others like gambling or ponzi schemes, which typically involve smaller individual transactions."
+  },
+  "1EELDv8UBcxYLrmWCps2seqtpaJUmPHqKn": {
+    "ground_truth": "tumbler",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "gambling"
+    ],
+    "llm_explain": "The structure of this graph includes multiple layers of transactions and address nodes which is indicative of a tumbler, meant to obscure the origins of the transactions. It also has elements of an exchange with multiple nodes and transaction flow, and gambling due to the multiple transactions which could represent bets or payouts."
+  },
+  "18Hw4SQjqvkk3cHqPWtbCogsVyXNfvdnjA": {
+    "ground_truth": "exchange",
+    "llm_result": [
+      "tumbler",
+      "gambling",
+      "money laundering"
+    ],
+    "llm_explain": "The observed graph shows patterns similar to a tumbler, with multiple layers of transaction nodes and address nodes, indicating a possible effort to obfuscate the trail of transactions. Additionally, the large number of transactions occurring in a short time frame and the consistent in and out values are characteristic of tumblers. Gambling and money laundering are also considered due to the potential involvement of a large number of addresses and transactions to mix funds, but the structure and behavior are most indicative of a tumbler."
+  },
+  "32GFwqHeyD28RwMpKE6f8PJjW9NiLEUe8Z": {
+    "ground_truth": "darknet market",
+    "llm_result": [
+      "tumbler",
+      "pool",
+      "exchange"
+    ],
+    "llm_explain": "The graph has many transactions with a high in_degree and out_degree on Layer 2, indicating mixing activity. The time_range is also extensive, suggesting an ongoing operation rather than a one-time event like blackmail. Additionally, the in_value and out_value discrepancies suggest funds are being split and potentially obfuscated, which is more common in tumblers. The presence of a single address node with a large number of transactions in Layer 2 is similar to tumbler and pool patterns, but the structure and transaction flow are more complex than a typical pool, leading to the conclusion that this graph is most likely a tumbler."
+  },
+  "13iSbyLSUcfqzYmBDFdne1yVhYCUDtDSos": {
+    "ground_truth": "blackmail",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "darknet market"
+    ],
+    "llm_explain": "The graph shows a single initial address node with a relatively high out_value being distributed across multiple transaction nodes, which is characteristic of a tumbler trying to obfuscate the flow of funds. Additionally, the high number of address nodes at Layer 2 and the complexity of transactions resemble the patterns of exchanges and darknet markets, which often involve many addresses and transactions to operate, but the primary characteristic closely matches that of a tumbler service."
+  },
+  "126NS6AFgrUti4dMjS3vgfKyo7RZPzDGAD": {
+    "ground_truth": "gambling",
+    "llm_result": [
+      "exchange",
+      "darknet market",
+      "gambling"
+    ],
+    "llm_explain": "The graph has a structure where a single address node has a high in_degree with multiple transactions nodes having a high number of in_nodes suggesting a collection of funds from many addresses. This is followed by a distribution to a smaller set of addresses, which is indicative of exchange behavior. Additionally, the presence of multiple layers and the flow of funds resemble both darknet market and gambling activities, where funds can be pooled and redistributed in a similar pattern. However, the exchange category is more consistent with the observed high in_degree aggregation followed by outflow to fewer nodes, which is typical of users depositing into and withdrawing from exchanges."
+  },
+  "18HyvEpqiC9eCnAE6HUSBU5LeeuHPN66w3": {
+    "ground_truth": "exchange",
+    "llm_result": [
+      "tumbler",
+      "money laundering",
+      "exchange"
+    ],
+    "llm_explain": "The graph shows a pattern of transactions where funds are being split and combined in various ways, which is characteristic of a tumbler or mixer service used to obfuscate the trail of funds, often for money laundering purposes. Additionally, there is a significant amount of funds flowing through the network, similar to an exchange, but the complex, non-linear flow is more typical of tumbling or money laundering activities."
+  },
+  "18HtLUYQCsgjgCoAZy5L4bte3yNsJCwmbN": {
+    "ground_truth": "exchange",
+    "llm_result": [
+      "tumbler",
+      "exchange",
+      "darknet market"
+    ],
+    "llm_explain": "The graph shows a pattern of transactions that are typical for a tumbler service, where small amounts are mixed and split across multiple transactions and addresses to obfuscate the traceability of the funds. There is a high in-degree and out-degree at a certain layer, which indicates a mixing service. Additionally, the presence of transactions with multiple input and output nodes is a characteristic often seen in exchanges and darknet markets. However, the pattern is most aligned with tumbler services due to the high volume of transactions intended to increase anonymity, which is less common in the typical operation of exchanges or darknet markets."
+  }
+}

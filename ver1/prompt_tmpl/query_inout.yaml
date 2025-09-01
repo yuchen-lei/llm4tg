@@ -1,0 +1,14 @@
+- role: system
+  msg: >
+    Please provide the results in JSON format.
+    You are given a graph node with the following edges.
+    "to <node_name> <edge_info>" means an outgoing edge with the given attribute.
+    "from <node_name> <edge_info>" means an incoming edge with the given attribute.
+    Please calculate the in-degree and out-degree, as well as the total incoming and outgoing values.
+    Also find out the first transaction time (the minimal value of edges' time)
+    With the following keys: in_degree, out_degree, in_value, out_value, first_time.
+
+- role: user
+  msg: |
+    Edges of the node:
+    {edges}

@@ -1,0 +1,200 @@
+{
+  "1255efYAn53zjTt2KViMxm3vufmzVwsdKn": {
+    "S5": "The closeness centrality of the graph is the most important feature as it is significantly higher than the average of the reference graphs.",
+    "S1-2": "The standard deviation of in-degree in the graph is also important as it is higher than the average of the reference graphs.",
+    "S7": "The density of the graph is the third most important feature as it is significantly lower than the average of the reference graphs."
+  },
+  "123uCzUxsBn3bRhuZjkYMQxMBxTW8bcDNv": {
+    "S2-2": "high",
+    "S1-6": "higher than average",
+    "S7": "higher than average"
+  },
+  "bc1q5u3wtzmaw35jrgg8shrd0x7x2cyp8e3anrj982": {
+    "S2-2": "The maximum out-degree in the graph is 1, which is significantly lower than the average maximum out-degree of the reference graphs. This indicates a less complex and interconnected structure in comparison to the reference graphs.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in the graph is 0.544, which is higher than the average standard deviation of the reference graphs. This suggests that the nodes in the graph have varying degrees, leading to a less uniform network structure.",
+    "PTIa41-2": "The minimum transaction time interval of an address node in the graph is 6.67, which is notably higher than the average minimum transaction time interval of the reference graphs. This implies that the transactions involving the address nodes are more spaced out in time, potentially indicating a different pattern of transaction behavior."
+  },
+  "18hYGKk8BcreieeJwNqSBsuVCeDXTmmQ91": {
+    "S2-2": "The most important feature of the graph is S2-2.",
+    "S1-6": "The second most important feature of the graph is S1-6.",
+    "S1-2": "The third most important feature of the graph is S1-2."
+  },
+  "13NibfakFeSkuruEjMkF6ZbChgphaYehGT": {
+    "S2-2": "High",
+    "S1-6": "High",
+    "CI3a32-2": "High"
+  },
+  "1BWG2fXTajNR7tfXsV1XASzewkSSBqtCPv": {
+    "S5": "The closeness centrality of the graph is the most important feature as it is significantly higher than the average of the reference graphs, indicating a higher level of centrality and influence of nodes in the graph.",
+    "S7": "The density of the graph is also a critical feature due to its relatively low value compared to the average of the reference graphs, suggesting a sparser connectivity among nodes.",
+    "S6": "The longest distance between any two nodes in the graph is another crucial feature as it is consistent with the average of the reference graphs, signifying a typical graph diameter."
+  },
+  "18HY28mfBxPVqKtA8Ng6qLVqCDMZZsu8zu": {
+    "S5": "The closeness centrality of the graph is 3.05, which is higher than the average of the reference graphs (2.48), indicating that the graph has a higher overall centrality.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in the graph is 0.92, which is higher than the average of the reference graphs (0.59), suggesting a higher variability in the degree distribution of the nodes in the graph.",
+    "S2-2": "The maximum out-degree in the graph is 2771, which is significantly higher than the average of the reference graphs (1631), indicating a higher level of out-degree for certain nodes in the graph."
+  },
+  "114B8ii9KT96NfXjUbCp5WuretrDYiobhb": {
+    "S2-2": "The maximum out-degree of the graph is 46, which is significantly higher than the average maximum out-degree of the reference graphs (average is around 800). Hence, this feature is important."
+  },
+  "13ky7a9AkfYmhtxRuWAQ8fau5QjVAdyFGU": {
+    "S2-2": "The maximum out-degree in graph.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in graph.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order."
+  },
+  "321X5RXmLNpKDF7LYPNPD6ModdPRupKJ9H": {
+    "S2-2": "The maximum out-degree in the graph is 32, which is higher than the average of the reference graphs (average is around 1200). This indicates a relatively lower level of interconnectedness compared to the reference graphs.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in the graph is 0.259, which is slightly lower than the average of the reference graphs (average is around 0.6). This suggests a more consistent degree distribution compared to the reference graphs.",
+    "S5": "The closeness centrality of the graph is 2.91, which is higher than the average of the reference graphs (average is around 2.3). This indicates a higher level of centrality and potential importance of the nodes in the graph compared to the reference graphs."
+  },
+  "11DzAdeW2BwxRsraZpRQQbY45msFzL4Sf": {
+    "S5": "The closeness centrality of the graph is the most important feature because its value (3.45) is significantly higher than the average value of 2.48 in the reference graphs.",
+    "PAIa21-1": "The ratio of the minimum input token amount of an address node to the total input token amount of an address node is another important feature as it has a maximum value of 1.0, which is higher than the average value of 0.42 in the reference graphs.",
+    "S3": "The degree correlation of the graph is also important because its value (-0.25) is significantly lower than the average value of -0.17 in the reference graphs."
+  },
+  "115kMVerszvaDpUA3QQvjU24zjLcLcmxsR": {
+    "S2-2": "The maximum out-degree in graph.",
+    "S5": "The closeness centrality of graph.",
+    "S6": "The longest distance between any two nodes in graph."
+  },
+  "32bYqZ2GmPDYZGqk1Ab3VT35tn3RBsgZzR": {
+    "S2-2": "2909 is significantly higher than the average of the reference graphs which is around 1000. This indicates a very high maximum out-degree in the graph.",
+    "S3": "The degree correlation of -0.326 is significantly lower than the average of the reference graphs which is around -0.25. This suggests a weaker assortative mixing in the graph.",
+    "S7": "The density of 0.333 is in line with the average of the reference graphs. This indicates that the graph has a moderate density."
+  },
+  "1KyAvpDvhFowvsMgRy4iB8YnQpGKXwU4g7": {
+    "S2-2": "The out-degree of the graph is 10, which is higher than the average out-degree of the reference graphs. This indicates a higher level of connectivity and activity in terms of outward transactions from the nodes in the graph.",
+    "S5": "The closeness centrality of the graph is 4.025, which is higher than the average closeness centrality of the reference graphs. This suggests that the nodes in the graph are, on average, relatively closer to each other, indicating a higher level of information flow and efficiency in the network.",
+    "S6": "The longest distance between any two nodes in the graph is 8. This is in line with the average longest distance in the reference graphs, indicating that the graph has a typical diameter in terms of node connectivity."
+  },
+  "31x7fJCMJa28EVcAB1jV8seLab8eAJuWZb": {
+    "S2-2": "The maximum out-degree in the graph is 2941, which is significantly higher than the average of reference graphs. This indicates a high level of connectivity and activity within the graph.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in the graph is 0.979, which is much higher than the average of reference graphs. This suggests a wide variation in the degree distribution and connectivity of the nodes in the graph.",
+    "S1-2": "The standard deviation of in-degree in the graph is 1.958, which is substantially higher than the average of reference graphs. This indicates a significant variability in the number of incoming connections to nodes, reflecting diverse patterns of interaction."
+  },
+  "328EECsXLYaVhc9Xq39ZeP9oEc5SEgwxQz": {
+    "S2-2": "The maximum out-degree in the graph is very high compared to the average of the reference graphs, indicating a strong interconnectedness and influence of some nodes in the network.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in the graph is significantly higher than the average of the reference graphs, suggesting a wide variation in the connectivity of nodes.",
+    "S1-2": "The standard deviation of the in-degree in the graph is notably higher than the average of the reference graphs, signifying a greater diversity in the number of incoming connections to nodes."
+  },
+  "125gSs2bkHFkDXB3fpU6PAYqTkgTxJPNq5": {
+    "S5": "The closeness centrality of the graph is the most important feature because it is much higher than the average of the reference graphs, indicating that the graph has a high closeness centrality, meaning that nodes are close to each other, and information can easily spread throughout the network.",
+    "S1-2": "The standard deviation of in-degree in the graph is the second most important feature as it is slightly higher than the average of reference graphs. This suggests that the in-degree distribution of nodes in the graph is more varied compared to the reference graphs.",
+    "S2-2": "The maximum out-degree in the graph is the third most important feature. Although not significantly higher, it is still above the average of reference graphs, indicating that there are nodes with relatively high out-degrees in the graph."
+  },
+  "32iGiasU8W8QUyVWg5cCHmTQeLHbmpWsNS": {
+    "S2-2": "The maximum out-degree in the graph is 2956, which is significantly higher than the average of reference graphs. This indicates a high level of connectivity from a single node to other nodes, potentially representing a significant flow of transactions or information.",
+    "S1-2": "The standard deviation of in-degree in the graph is 1.9687, which is notably higher than the average of reference graphs. This suggests a wide variation in the number of connections nodes have towards the analyzed node, indicating potential heterogeneity in the transaction or information flow.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order is 505.26. This is significantly higher than the average of reference graphs, indicating a substantial change in the connectivity of the node over time, possibly reflecting dynamic behavior or significant event occurrences."
+  },
+  "1211haXc5x1wxqreChZA1V6H9mY8dnffqZ": {
+    "S2-2": "high value",
+    "S1-6": "low value",
+    "S3": "low value"
+  },
+  "31niWr5Y4EP8efy7hMrR4pNmZ16fLWxco2": {
+    "S2-2": "The maximum out-degree in the graph is 2899, which is significantly higher than the average of the reference graphs.",
+    "S1-2": "The standard deviation of in-degree in the graph is 1.9306, which is notably higher than the average of the reference graphs.",
+    "S7": "The density of the graph is 0.3335, indicating a relatively dense structure compared to the reference graphs."
+  },
+  "31z3uYebfEx2Pt7EzMAHUi5pYNyqENbuVX": {
+    "S2-2": "High out-degree",
+    "S1-6": "High standard deviation of in-degree and out-degree",
+    "S1-2": "High standard deviation of in-degree"
+  },
+  "bc1q3xu2p9m69v0f2n52ch4d5tvr75526t00hvf54w": {
+    "S2-2": "high",
+    "S1-6": "high",
+    "S1-2": "high"
+  },
+  "115q6DqcPbTrsPm5gv7xbuePvezjRLtGUU": {
+    "S2-2": "It is relatively higher than the average of the reference graphs, indicating a high maximum out-degree in the graph.",
+    "S3": "The degree correlation of the graph is notably lower than the average of the reference graphs, signifying a different pattern of connectivity between nodes.",
+    "S5": "The closeness centrality of the graph is significantly higher compared to the average of the reference graphs, suggesting a more centralized or efficient information flow within the graph."
+  },
+  "114iyrTbcRQdJrD8iUeFAQbRgM8XNuyFM5": {
+    "S2-2": "high",
+    "S1-6": "low",
+    "S3": "low"
+  },
+  "1227AU32baSnqraA7Tx38h4TGtin62fwAM": {
+    "S5": "The closeness centrality of the graph is 3.82, which is higher than the average of reference graphs (avg: 2.44). This indicates that the graph is more central and efficient in terms of information flow.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order is 0.0, which is lower than the average of reference graphs (avg: 1.44). This implies that the in-degree of nodes does not change significantly over time, suggesting a more stable and potentially less dynamic network.",
+    "S2-2": "The maximum out-degree in the graph is 17, which is higher than the average of reference graphs (avg: 1346). This shows that there are fewer nodes with a higher out-degree, indicating a more focused flow of transactions."
+  },
+  "13eWVHRW7aS8JdU7DckXpDvD8Lg39yaFP1": {
+    "S2-2": "high",
+    "S1-2": "high",
+    "CI3a32-2": "high"
+  },
+  "18hXK3RBBjKRscEfi3qGBCVM2eqnahjC6b": {
+    "S2-2": "The graph has a moderate maximum out-degree of 88, which is lower than the average of the reference graphs. This indicates a more balanced flow of transactions compared to the high out-degrees in other graphs.",
+    "S1-6": "The standard deviation of the in-degree and out-degree is 0.313, which is higher than the average of the reference graphs. This suggests a wider variability in the degree distribution, potentially indicating a more diverse network structure.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval is 103.6, significantly higher than the average of the reference graphs. This indicates a substantial change in node relationships over time, potentially reflecting evolving transaction patterns or network dynamics."
+  },
+  "12r8QFKrGD1pX7ozxi16bnQq58NFdLzUpF": {
+    "S2-2": "1233 is higher than the average maximum out-degree of 608.8 in the reference graphs.",
+    "S1-6": "0.4115 is lower than the average standard deviation of 0.5970 in the reference graphs.",
+    "CI3a32-2": "1.7129 is higher than the average maximum value of 0.8063 for the ratio of the change in in-degree to transaction time interval in the reference graphs."
+  },
+  "1KNa9uAuaNTYSwfc5tFCD81w38fvD2nLjQ": {
+    "S2-2": "high",
+    "S1-6": "higher",
+    "PTIa41-2": "lower"
+  },
+  "18Hum5j1wpZ6UDqUhuLFNAZ9hW2w2CVni5": {
+    "S2-2": "478",
+    "S1-6": "0.2491275838034369",
+    "S3": "-0.2698359182321415"
+  },
+  "18HVcDErCSR6m2VehttJYoxj3imU6pQqAJ": {
+    "S2-2": "The S2-2 value of the graph (307) is higher than the average of the reference graphs (1147.6). This indicates that the maximum out-degree in the graph is significantly higher than the average of reference graphs, making it an important feature.",
+    "S1-2": "The S1-2 value of the graph (0.371) is higher than the average of the reference graphs (0.879). This suggests that the standard deviation of in-degree in the graph is higher compared to the average of reference graphs, making it an important characteristic to consider.",
+    "CI3a32-2": "The CI3a32-2 value of the graph (1.495) is significantly higher than the average of the reference graphs (0.355). This indicates that the maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order is notably higher in the graph compared to the average of reference graphs, making it an important feature to take into account."
+  },
+  "183oLN2miUCzYhquAu7RUm4i1sX5AD5uoY": {
+    "S2-2": "The out-degree of the graph is 1303, which is significantly higher than the average out-degree of reference graphs (mean around 1200). This indicates a high level of interconnectedness and activity within the graph.",
+    "S1-6": "The standard deviation of the in-degree and out-degree is 0.444, which is higher than the average standard deviation of reference graphs (mean around 0.4). This suggests a significant variability in the node degrees, reflecting a diverse and dynamic network structure.",
+    "S5": "The closeness centrality of the graph is 2.736, which is higher than the average closeness centrality of reference graphs (mean around 2.5). This indicates that nodes in the graph are, on average, closer to each other, which can signify efficient information flow and influence within the network."
+  },
+  "13K332SEysdGVkSC5turTLz9MLekfXmUMy": {
+    "S2-2": "The maximum out-degree in the graph is 1791, which is significantly higher than the average of the reference graphs. This suggests an unusually high number of outgoing connections from a single node, indicating a potential hub or central entity in the graph.",
+    "S1-2": "The standard deviation of in-degree in the graph is 0.893, which is much higher than the average of the reference graphs. This indicates a high variability in the number of incoming connections to nodes, suggesting a diverse and uneven distribution of influence or connections within the graph.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order is 1.371, indicating a significant change in influence or connectivity of nodes over time. This could imply dynamic and impactful shifts in the structure of the graph over different time intervals."
+  },
+  "18HwhCdfhx7kXSAvX12hQwFC7KxhVWzWC6": {
+    "S2-2": "The maximum out-degree is 44, which is higher than the average out-degree of reference graphs.",
+    "S1-6": "The standard deviation of the in-degree and out-degree is 0.014, which is significantly lower than the average standard deviation of reference graphs.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order is 485.39, which is much higher than the average of reference graphs."
+  },
+  "bc1q3gf57vpn2lawpkcvghgc584gxsddtp8vnu8f7n": {
+    "S2-2": "high",
+    "S1-6": "higher than average",
+    "S3": "lower than average"
+  },
+  "31oc7Qtj4axHN2cWK5gBpMcCNCFeY4sUgj": {
+    "S2-2": "The maximum out-degree in the graph is 2934, which is significantly higher than the average out-degree of the reference graphs.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in the graph is 0.9768616695182544, which is much higher than the average standard deviation of the reference graphs.",
+    "S1-2": "The standard deviation of in-degree in the graph is 1.9537896185098824, which is substantially higher than the average standard deviation of the reference graphs."
+  },
+  "18Hu8bzTeyguy9R2Y2Z7QsXHAskqrkYGsx": {
+    "S2-2": "The out-degree of the graph (1890) is significantly higher than the maximum out-degree in the reference graphs (ranging from 2 to 305). This indicates that the graph has a very high out-degree, which could imply a high level of connectivity and influence of nodes in the graph.",
+    "S1-6": "The standard deviation of the in-degree and out-degree in the graph (0.6344) is much higher than the average standard deviation of the reference graphs (ranging from 0.1149 to 0.9988). This suggests that the distribution of node degrees in the graph is more spread out compared to the reference graphs, indicating potential heterogeneity in the connectivity patterns of nodes.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in chronological order (0.0857) is higher than the average maximum value in the reference graphs (ranging from 0 to 2618.1818). This indicates that the rate of change in in-degree relative to transaction time intervals is comparatively higher, potentially reflecting evolving connectivity dynamics over time."
+  },
+  "1JL2KvrccFSaxCAxnciyUMjr2UmSJafRk3": {
+    "S2-2": "2033 is significantly higher than the average of reference graphs, indicating a very high maximum out-degree in the graph.",
+    "S1-6": "0.6771520215175578 is significantly higher than the average of reference graphs, indicating a high standard deviation of the in-degree and out-degree in the graph.",
+    "S1-2": "0.7201783746142472 is significantly higher than the average of reference graphs, indicating a high standard deviation of in-degree in the graph."
+  },
+  "13JwXoHHdtZpWxsyph5avNds19Ys1tG3TW": {
+    "S2-2": "The graph has a low maximum out-degree compared to the reference graphs. This indicates a lower level of connectivity and influence compared to the reference graphs.",
+    "S5": "The closeness centrality of the graph is higher than the average of reference graphs. This indicates that nodes in the graph are, on average, closer to each other compared to the reference graphs.",
+    "CI3a32-2": "The maximum value of the ratio of the change in in-degree to each transaction time interval for the address node in the graph is higher than the average of the reference graphs. This indicates a higher rate of change in the in-degree of nodes with respect to transaction time intervals compared to the average of the reference graphs."
+  },
+  "32f15BpHaLmZj6pnHkzdXNCDHJveo7tKVe": {
+    "S2-2": "The maximum out-degree of the graph is 498, which is significantly higher than the average of the reference graphs that have an average value of approximately 1073. Therefore, this high value indicates that the graph has a much higher out-degree than the average, making it an important characteristic.",
+    "S1-2": "The standard deviation of in-degree in the graph is 0.558, which is notably higher than the average of the reference graphs, indicating a higher variability in the in-degrees of the nodes in the graph compared to the average. This makes it an important feature to consider.",
+    "S3": "The degree correlation of the graph is -0.282, which is lower than the average degree correlation of the reference graphs, suggesting a different pattern of connection between nodes compared to the average. This difference in degree correlation makes it a significant characteristic of the graph."
+  }
+}
