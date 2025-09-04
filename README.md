@@ -4,7 +4,7 @@ This project includes the source code for our work **[Large Language Models for 
 
     @article{lei2025large,
       title={Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study},
-      author={Lei, Yuchen and Xiang, Yuexin and Wang, Qin and Dowsley, Rafael and Yuen, Tsz Hon and Yu, Jiangshan and Choo, Kim-Kwang Raymond},
+      author={Lei, Yuchen and Xiang, Yuexin and Wang, Qin and Dowsley, Rafael and Yuen, Tsz Hon and Choo, Kim-Kwang Raymond and Yu, Jiangshan},
       journal={arXiv preprint arXiv:2501.18158},
       year={2025}
     }
