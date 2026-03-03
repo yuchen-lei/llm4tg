@@ -9,8 +9,6 @@ This project includes the source code for our work **[Large Language Models for 
       year={2025}
     }
 
-If you have any questions please feel free to contact by e-mail at Yuexin.Xiang@monash.edu.
-
 ## Contents
 
 - [Dataset](#dataset)
